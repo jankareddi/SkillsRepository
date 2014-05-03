@@ -1,0 +1,24 @@
+<p>This is the user view.</p>
+<div id="userDetails">
+	<div class="row">
+		<span class="label label-primary col-md-offset-1">Name</span>
+		<label class="label label-default">{{userData.firstName}}</label>
+		<label class="label label-default">{{userData.lastName}}</label>
+		
+		<span class="label label-primary col-md-offset-1">Role</span>
+		<label class="label label-default">{{userData.role}}</label>
+	</div>
+
+	<div id="skillsContainer" class="row top-space well col-md-offset-1 col-md-10">
+	<h3>Skills</h3>
+		<h4 ng-repeat="skill in userData.skills"><span class="label label-primary col-md-2 right-space bottom-space">{{skill.type}}<span class="badge pull-right">{{skill.level}}</span></span></h4>
+		<!-- <h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
+		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
+		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
+		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
+		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
+		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
+		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
+		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4> -->
+	</div>
+</div>
