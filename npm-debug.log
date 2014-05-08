@@ -1,0 +1,1648 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'mongoose' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'mongoose', null ]
+6 verbose cache add name=undefined spec="mongoose" args=["mongoose",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'mongoose',
+7 verbose parsed url   path: 'mongoose',
+7 verbose parsed url   href: 'mongoose' }
+8 silly lockFile f25dbdd3-mongoose mongoose
+9 verbose lock mongoose C:\Users\jayantha\AppData\Roaming\npm-cache\f25dbdd3-mongoose.lock
+10 silly lockFile f25dbdd3-mongoose mongoose
+11 silly lockFile f25dbdd3-mongoose mongoose
+12 verbose addNamed [ 'mongoose', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 3bb0fc31-mongoose mongoose@
+15 verbose lock mongoose@ C:\Users\jayantha\AppData\Roaming\npm-cache\3bb0fc31-mongoose.lock
+16 silly addNameRange { name: 'mongoose', range: '*', hasData: false }
+17 verbose url raw mongoose
+18 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+19 verbose url resolved https://registry.npmjs.org/mongoose
+20 info trying registry request attempt 1 at 20:53:04
+21 verbose etag "5N8LRJIWWXWYK4S4I5PDEJ28F"
+22 http GET https://registry.npmjs.org/mongoose
+23 http 200 https://registry.npmjs.org/mongoose
+24 silly registry.get cb [ 200,
+24 silly registry.get   { date: 'Wed, 07 May 2014 15:23:06 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+24 silly registry.get     etag: '"1XDRB98J6XPKP4WZJR2XDCL5S"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'cache-control': 'max-age=1',
+24 silly registry.get     'content-length': '247294',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     age: '659',
+24 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-sv95-SJC3',
+24 silly registry.get     'x-cache': 'HIT, MISS',
+24 silly registry.get     'x-cache-hits': '1, 0',
+24 silly registry.get     'x-timer': 'S1399475527.234112978,VS0,VS37,VE147,VE659023',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly addNameRange number 2 { name: 'mongoose', range: '*', hasData: true }
+26 silly addNameRange versions [ 'mongoose',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.0.4',
+26 silly addNameRange     '0.0.5',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '1.0.1',
+26 silly addNameRange     '1.0.2',
+26 silly addNameRange     '0.0.6',
+26 silly addNameRange     '1.0.3',
+26 silly addNameRange     '1.0.4',
+26 silly addNameRange     '1.0.5',
+26 silly addNameRange     '1.0.6',
+26 silly addNameRange     '1.0.7',
+26 silly addNameRange     '1.0.8',
+26 silly addNameRange     '1.0.10',
+26 silly addNameRange     '1.0.11',
+26 silly addNameRange     '1.0.12',
+26 silly addNameRange     '1.0.13',
+26 silly addNameRange     '1.0.14',
+26 silly addNameRange     '1.0.15',
+26 silly addNameRange     '1.0.16',
+26 silly addNameRange     '1.1.0',
+26 silly addNameRange     '1.1.1',
+26 silly addNameRange     '1.1.2',
+26 silly addNameRange     '1.1.3',
+26 silly addNameRange     '1.1.4',
+26 silly addNameRange     '1.1.5',
+26 silly addNameRange     '1.1.6',
+26 silly addNameRange     '1.1.7',
+26 silly addNameRange     '1.1.8',
+26 silly addNameRange     '1.1.9',
+26 silly addNameRange     '1.1.10',
+26 silly addNameRange     '1.1.11',
+26 silly addNameRange     '1.1.12',
+26 silly addNameRange     '1.1.13',
+26 silly addNameRange     '1.1.14',
+26 silly addNameRange     '1.1.15',
+26 silly addNameRange     '1.1.16',
+26 silly addNameRange     '1.1.17',
+26 silly addNameRange     '1.1.18',
+26 silly addNameRange     '1.1.19',
+26 silly addNameRange     '1.1.20',
+26 silly addNameRange     '1.1.21',
+26 silly addNameRange     '1.1.22',
+26 silly addNameRange     '1.1.23',
+26 silly addNameRange     '1.1.24',
+26 silly addNameRange     '1.1.25',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '1.3.0',
+26 silly addNameRange     '1.3.1',
+26 silly addNameRange     '1.3.2',
+26 silly addNameRange     '1.3.3',
+26 silly addNameRange     '1.3.4',
+26 silly addNameRange     '1.3.5',
+26 silly addNameRange     '1.3.6',
+26 silly addNameRange     '1.3.7',
+26 silly addNameRange     '1.4.0',
+26 silly addNameRange     '1.5.0',
+26 silly addNameRange     '1.6.0',
+26 silly addNameRange     '1.7.2',
+26 silly addNameRange     '1.7.3',
+26 silly addNameRange     '1.7.4',
+26 silly addNameRange     '1.8.0',
+26 silly addNameRange     '1.8.1',
+26 silly addNameRange     '1.8.2',
+26 silly addNameRange     '1.8.3',
+26 silly addNameRange     '1.8.4',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.0.1',
+26 silly addNameRange     '2.0.2',
+26 silly addNameRange     '2.0.3',
+26 silly addNameRange     '2.0.4',
+26 silly addNameRange     '2.1.0',
+26 silly addNameRange     '2.1.1',
+26 silly addNameRange     '2.1.2',
+26 silly addNameRange     '2.1.3',
+26 silly addNameRange     '2.1.4',
+26 silly addNameRange     '2.2.0',
+26 silly addNameRange     '2.2.1',
+26 silly addNameRange     '2.2.2',
+26 silly addNameRange     '2.2.3',
+26 silly addNameRange     '2.2.4',
+26 silly addNameRange     '2.3.0',
+26 silly addNameRange     '2.3.1',
+26 silly addNameRange     '2.3.2',
+26 silly addNameRange     '2.3.3',
+26 silly addNameRange     '2.3.4',
+26 silly addNameRange     '2.3.5',
+26 silly addNameRange     '2.3.6',
+26 silly addNameRange     '2.3.7',
+26 silly addNameRange     '2.3.8',
+26 silly addNameRange     '2.3.9',
+26 silly addNameRange     '2.3.10',
+26 silly addNameRange     '2.3.11',
+26 silly addNameRange     '2.3.12',
+26 silly addNameRange     '2.3.13',
+26 silly addNameRange     '2.4.0',
+26 silly addNameRange     '2.4.1',
+26 silly addNameRange     '2.4.2',
+26 silly addNameRange     '2.4.3',
+26 silly addNameRange     '2.4.4',
+26 silly addNameRange     '2.4.5',
+26 silly addNameRange     '2.4.6',
+26 silly addNameRange     '2.4.7',
+26 silly addNameRange     '2.4.8',
+26 silly addNameRange     '2.4.9',
+26 silly addNameRange     '2.4.10',
+26 silly addNameRange     '2.5.0',
+26 silly addNameRange     '2.5.1',
+26 silly addNameRange     '2.5.2',
+26 silly addNameRange     '2.5.3',
+26 silly addNameRange     '2.5.4',
+26 silly addNameRange     '2.5.5',
+26 silly addNameRange     '2.5.6',
+26 silly addNameRange     '2.5.7',
+26 silly addNameRange     '2.5.8',
+26 silly addNameRange     '2.5.9',
+26 silly addNameRange     '2.5.10',
+26 silly addNameRange     '2.5.11',
+26 silly addNameRange     '2.5.12',
+26 silly addNameRange     '2.5.13',
+26 silly addNameRange     '2.5.14',
+26 silly addNameRange     '2.6.0',
+26 silly addNameRange     '2.6.1',
+26 silly addNameRange     '2.6.2',
+26 silly addNameRange     '2.6.3',
+26 silly addNameRange     '2.6.4',
+26 silly addNameRange     '2.6.5',
+26 silly addNameRange     '2.6.6',
+26 silly addNameRange     '2.6.7',
+26 silly addNameRange     '2.6.8',
+26 silly addNameRange     '2.7.0',
+26 silly addNameRange     '2.7.1',
+26 silly addNameRange     '2.7.2',
+26 silly addNameRange     '2.7.4',
+26 silly addNameRange     '2.7.3',
+26 silly addNameRange     '3.0.0',
+26 silly addNameRange     '3.0.1',
+26 silly addNameRange     '3.0.2',
+26 silly addNameRange     '2.8.0',
+26 silly addNameRange     '3.0.3',
+26 silly addNameRange     '3.1.0',
+26 silly addNameRange     '2.8.1',
+26 silly addNameRange     '3.1.1',
+26 silly addNameRange     '2.8.2',
+26 silly addNameRange     '2.8.3',
+26 silly addNameRange     '2.9.0',
+26 silly addNameRange     '3.2.0',
+26 silly addNameRange     '2.9.1',
+26 silly addNameRange     '3.2.1',
+26 silly addNameRange     '2.9.2',
+26 silly addNameRange     '3.2.2',
+26 silly addNameRange     '3.3.0',
+26 silly addNameRange     '3.3.1',
+26 silly addNameRange     '2.9.3',
+26 silly addNameRange     '3.4.0',
+26 silly addNameRange     '2.9.4',
+26 silly addNameRange     '2.9.5',
+26 silly addNameRange     '3.5.0',
+26 silly addNameRange     '3.5.1',
+26 silly addNameRange     '3.5.2',
+26 silly addNameRange     '3.5.3',
+26 silly addNameRange     '2.9.6',
+26 silly addNameRange     '2.9.7',
+26 silly addNameRange     '3.5.4',
+26 silly addNameRange     '3.5.5',
+26 silly addNameRange     '2.9.8',
+26 silly addNameRange     '2.9.9',
+26 silly addNameRange     '3.5.6',
+26 silly addNameRange     '3.5.7',
+26 silly addNameRange     '3.5.8',
+26 silly addNameRange     '2.9.10',
+26 silly addNameRange     '3.5.9',
+26 silly addNameRange     '3.6.2',
+26 silly addNameRange     '3.5.10',
+26 silly addNameRange     '3.6.3',
+26 silly addNameRange     '3.5.11',
+26 silly addNameRange     '3.6.4',
+26 silly addNameRange     '3.6.5',
+26 silly addNameRange     '3.6.6',
+26 silly addNameRange     '3.6.7',
+26 silly addNameRange     '3.5.12',
+26 silly addNameRange     '3.6.8',
+26 silly addNameRange     '3.6.9',
+26 silly addNameRange     '3.6.10',
+26 silly addNameRange     '3.5.13',
+26 silly addNameRange     '3.5.14',
+26 silly addNameRange     '3.6.11',
+26 silly addNameRange     '3.6.12',
+26 silly addNameRange     '3.6.13',
+26 silly addNameRange     '3.6.14',
+26 silly addNameRange     '3.6.15',
+26 silly addNameRange     '3.5.15',
+26 silly addNameRange     '3.7.0',
+26 silly addNameRange     '3.6.16',
+26 silly addNameRange     '3.5.16',
+26 silly addNameRange     '3.6.17',
+26 silly addNameRange     '3.7.2',
+26 silly addNameRange     '3.0.0-alpha1',
+26 silly addNameRange     '3.0.0-alpha2',
+26 silly addNameRange     '3.0.0-rc0',
+26 silly addNameRange     '3.6.0-rc0',
+26 silly addNameRange     '3.6.0-rc1',
+26 silly addNameRange     '3.6.18',
+26 silly addNameRange     '3.7.3',
+26 silly addNameRange     '3.6.19',
+26 silly addNameRange     '3.6.20',
+26 silly addNameRange     '3.7.4',
+26 silly addNameRange     '3.8.0',
+26 silly addNameRange     '3.8.1',
+26 silly addNameRange     '3.8.2',
+26 silly addNameRange     '3.8.3',
+26 silly addNameRange     '3.8.4',
+26 silly addNameRange     '3.8.5',
+26 silly addNameRange     '3.8.6',
+26 silly addNameRange     '3.8.7',
+26 silly addNameRange     '3.8.8' ] ]
+27 verbose addNamed [ 'mongoose', '3.8.8' ]
+28 verbose addNamed [ '3.8.8', '3.8.8' ]
+29 silly lockFile 60cf8ebc-mongoose-3-8-8 mongoose@3.8.8
+30 verbose lock mongoose@3.8.8 C:\Users\jayantha\AppData\Roaming\npm-cache\60cf8ebc-mongoose-3-8-8.lock
+31 silly lockFile 12f1bda5--org-mongoose-mongoose-3-8-8-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.8.8.tgz
+32 verbose lock https://registry.npmjs.org/mongoose/-/mongoose-3.8.8.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\12f1bda5--org-mongoose-mongoose-3-8-8-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-3.8.8.tgz',
+33 verbose addRemoteTarball   'ab046f1fa17b0bdf090a04b6d034d87d240a47c2' ]
+34 info retry fetch attempt 1 at 20:53:08
+35 verbose fetch to= C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\tmp.tgz
+36 http GET https://registry.npmjs.org/mongoose/-/mongoose-3.8.8.tgz
+37 http 200 https://registry.npmjs.org/mongoose/-/mongoose-3.8.8.tgz
+38 verbose tar unpack C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\tmp.tgz
+39 silly lockFile b81b806a-88272-0-3398273093625903-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\package
+40 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\package C:\Users\jayantha\AppData\Roaming\npm-cache\b81b806a-88272-0-3398273093625903-package.lock
+41 silly lockFile a4030686-88272-0-3398273093625903-tmp-tgz tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\tmp.tgz
+42 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\tmp.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\a4030686-88272-0-3398273093625903-tmp-tgz.lock
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry package.json
+45 silly gunzTarPerm extractEntry .npmignore
+46 silly gunzTarPerm extractEntry README.md
+47 silly gunzTarPerm extractEntry static.js
+48 silly gunzTarPerm extractEntry index.js
+49 silly gunzTarPerm extractEntry website.js
+50 silly gunzTarPerm extractEntry .travis.yml
+51 silly gunzTarPerm extractEntry contRun.sh
+52 silly gunzTarPerm extractEntry lib/aggregate.js
+53 silly gunzTarPerm extractEntry lib/statemachine.js
+54 silly gunzTarPerm extractEntry lib/error.js
+55 silly gunzTarPerm extractEntry lib/index.js
+56 silly gunzTarPerm extractEntry lib/utils.js
+57 silly gunzTarPerm extractEntry lib/model.js
+58 silly gunzTarPerm extractEntry lib/collection.js
+59 silly gunzTarPerm extractEntry lib/query.js
+60 silly gunzTarPerm extractEntry lib/queryhelpers.js
+61 silly gunzTarPerm extractEntry lib/querystream.js
+62 silly gunzTarPerm extractEntry lib/document.js
+63 silly gunzTarPerm extractEntry lib/schematype.js
+64 silly gunzTarPerm extractEntry lib/connectionstate.js
+65 silly gunzTarPerm extractEntry lib/schema.js
+66 silly gunzTarPerm extractEntry lib/connection.js
+67 silly gunzTarPerm extractEntry lib/schemadefault.js
+68 silly gunzTarPerm extractEntry lib/internal.js
+69 silly gunzTarPerm extractEntry lib/virtualtype.js
+70 silly gunzTarPerm extractEntry lib/promise.js
+71 silly gunzTarPerm extractEntry lib/schema/array.js
+72 silly gunzTarPerm extractEntry lib/schema/boolean.js
+73 silly gunzTarPerm extractEntry lib/schema/buffer.js
+74 silly gunzTarPerm extractEntry lib/schema/date.js
+75 silly gunzTarPerm extractEntry lib/schema/documentarray.js
+76 silly gunzTarPerm extractEntry lib/schema/index.js
+77 silly gunzTarPerm extractEntry lib/schema/mixed.js
+78 silly gunzTarPerm extractEntry lib/schema/number.js
+79 silly gunzTarPerm extractEntry lib/schema/objectid.js
+80 silly gunzTarPerm extractEntry lib/schema/string.js
+81 silly gunzTarPerm extractEntry lib/error/cast.js
+82 silly gunzTarPerm extractEntry lib/error/divergentArray.js
+83 silly gunzTarPerm extractEntry lib/error/messages.js
+84 silly gunzTarPerm extractEntry lib/error/missingSchema.js
+85 silly gunzTarPerm extractEntry lib/error/overwriteModel.js
+86 silly gunzTarPerm extractEntry lib/error/validation.js
+87 silly gunzTarPerm extractEntry lib/error/validator.js
+88 silly gunzTarPerm extractEntry lib/error/version.js
+89 silly gunzTarPerm extractEntry lib/types/array.js
+90 silly gunzTarPerm extractEntry lib/types/buffer.js
+91 silly gunzTarPerm extractEntry lib/types/documentarray.js
+92 silly gunzTarPerm extractEntry lib/types/embedded.js
+93 silly gunzTarPerm extractEntry lib/types/index.js
+94 silly gunzTarPerm extractEntry lib/types/objectid.js
+95 silly gunzTarPerm extractEntry lib/drivers/SPEC.md
+96 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/binary.js
+97 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/collection.js
+98 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/connection.js
+99 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/objectid.js
+100 silly gunzTarPerm extractEntry History.md
+101 silly gunzTarPerm extractEntry release-items.md
+102 silly gunzTarPerm extractEntry CONTRIBUTING.md
+103 silly gunzTarPerm extractEntry examples/README.md
+104 silly gunzTarPerm extractEntry examples/doc-methods.js
+105 silly gunzTarPerm extractEntry examples/statics/person.js
+106 silly gunzTarPerm extractEntry examples/statics/statics.js
+107 silly gunzTarPerm extractEntry examples/express/README.md
+108 silly gunzTarPerm extractEntry examples/express/connection-sharing/package.json
+109 silly gunzTarPerm extractEntry examples/express/connection-sharing/README.md
+110 silly gunzTarPerm extractEntry examples/express/connection-sharing/app.js
+111 silly gunzTarPerm extractEntry examples/express/connection-sharing/modelA.js
+112 silly gunzTarPerm extractEntry examples/express/connection-sharing/routes.js
+113 silly gunzTarPerm extractEntry examples/geospatial/package.json
+114 silly gunzTarPerm extractEntry examples/geospatial/geoJSONSchema.js
+115 silly gunzTarPerm extractEntry examples/geospatial/geoJSONexample.js
+116 silly gunzTarPerm extractEntry examples/geospatial/geospatial.js
+117 silly gunzTarPerm extractEntry examples/geospatial/person.js
+118 silly gunzTarPerm extractEntry examples/globalschemas/gs_example.js
+119 silly gunzTarPerm extractEntry examples/globalschemas/person.js
+120 silly gunzTarPerm extractEntry examples/lean/package.json
+121 silly gunzTarPerm extractEntry examples/lean/lean.js
+122 silly gunzTarPerm extractEntry examples/lean/person.js
+123 silly gunzTarPerm extractEntry examples/aggregate/package.json
+124 silly gunzTarPerm extractEntry examples/aggregate/aggregate.js
+125 silly gunzTarPerm extractEntry examples/aggregate/person.js
+126 silly gunzTarPerm extractEntry examples/population/population-across-three-collections.js
+127 silly gunzTarPerm extractEntry examples/population/population-basic.js
+128 silly gunzTarPerm extractEntry examples/population/population-of-existing-doc.js
+129 silly gunzTarPerm extractEntry examples/population/population-of-multiple-existing-docs.js
+130 silly gunzTarPerm extractEntry examples/population/population-options.js
+131 silly gunzTarPerm extractEntry examples/population/population-plain-objects.js
+132 silly gunzTarPerm extractEntry examples/promises/package.json
+133 silly gunzTarPerm extractEntry examples/promises/person.js
+134 silly gunzTarPerm extractEntry examples/promises/promise.js
+135 silly gunzTarPerm extractEntry examples/querybuilder/package.json
+136 silly gunzTarPerm extractEntry examples/querybuilder/person.js
+137 silly gunzTarPerm extractEntry examples/querybuilder/querybuilder.js
+138 silly gunzTarPerm extractEntry examples/replicasets/package.json
+139 silly gunzTarPerm extractEntry examples/replicasets/person.js
+140 silly gunzTarPerm extractEntry examples/replicasets/replica-sets.js
+141 silly gunzTarPerm extractEntry examples/schema/schema.js
+142 silly gunzTarPerm extractEntry examples/schema/storing-schemas-as-json/index.js
+143 silly gunzTarPerm extractEntry examples/schema/storing-schemas-as-json/schema.json
+144 silly gunzTarPerm extractEntry examples/mapreduce/package.json
+145 silly gunzTarPerm extractEntry examples/mapreduce/mapreduce.js
+146 silly gunzTarPerm extractEntry examples/mapreduce/person.js
+147 silly lockFile b81b806a-88272-0-3398273093625903-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\package
+148 silly lockFile b81b806a-88272-0-3398273093625903-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\package
+149 silly lockFile a4030686-88272-0-3398273093625903-tmp-tgz tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\tmp.tgz
+150 silly lockFile a4030686-88272-0-3398273093625903-tmp-tgz tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\tmp.tgz
+151 verbose tar pack [ 'C:\\Users\\jayantha\\AppData\\Roaming\\npm-cache\\mongoose\\3.8.8\\package.tgz',
+151 verbose tar pack   'C:\\Users\\jayantha\\AppData\\Local\\Temp\\npm-8500-dudFx5sH\\1399476188272-0.3398273093625903\\package' ]
+152 verbose tarball C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+153 verbose folder C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\package
+154 silly lockFile b81b806a-88272-0-3398273093625903-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\package
+155 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\package C:\Users\jayantha\AppData\Roaming\npm-cache\b81b806a-88272-0-3398273093625903-package.lock
+156 silly lockFile 117af062-cache-mongoose-3-8-8-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+157 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\117af062-cache-mongoose-3-8-8-package-tgz.lock
+158 silly lockFile b81b806a-88272-0-3398273093625903-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\package
+159 silly lockFile b81b806a-88272-0-3398273093625903-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476188272-0.3398273093625903\package
+160 silly lockFile 117af062-cache-mongoose-3-8-8-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+161 silly lockFile 117af062-cache-mongoose-3-8-8-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+162 silly lockFile 53fed274-npm-cache-mongoose-3-8-8-package C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package
+163 verbose lock C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package C:\Users\jayantha\AppData\Roaming\npm-cache\53fed274-npm-cache-mongoose-3-8-8-package.lock
+164 silly lockFile 53fed274-npm-cache-mongoose-3-8-8-package C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package
+165 silly lockFile 53fed274-npm-cache-mongoose-3-8-8-package C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package
+166 verbose tar unpack C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+167 silly lockFile 0e5be08b-npm-cache-mongoose-3-8-8-package tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package
+168 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package C:\Users\jayantha\AppData\Roaming\npm-cache\0e5be08b-npm-cache-mongoose-3-8-8-package.lock
+169 silly lockFile 117af062-cache-mongoose-3-8-8-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+170 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\117af062-cache-mongoose-3-8-8-package-tgz.lock
+171 silly gunzTarPerm modes [ '755', '644' ]
+172 silly gunzTarPerm extractEntry package.json
+173 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+174 silly gunzTarPerm extractEntry .npmignore
+175 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+176 silly gunzTarPerm extractEntry README.md
+177 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+178 silly gunzTarPerm extractEntry static.js
+179 silly gunzTarPerm modified mode [ 'static.js', 438, 420 ]
+180 silly gunzTarPerm extractEntry website.js
+181 silly gunzTarPerm modified mode [ 'website.js', 438, 420 ]
+182 silly gunzTarPerm extractEntry index.js
+183 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+184 silly gunzTarPerm extractEntry History.md
+185 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+186 silly gunzTarPerm extractEntry .travis.yml
+187 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+188 silly gunzTarPerm extractEntry lib/aggregate.js
+189 silly gunzTarPerm modified mode [ 'lib/aggregate.js', 438, 420 ]
+190 silly gunzTarPerm extractEntry lib/statemachine.js
+191 silly gunzTarPerm modified mode [ 'lib/statemachine.js', 438, 420 ]
+192 silly gunzTarPerm extractEntry lib/error.js
+193 silly gunzTarPerm modified mode [ 'lib/error.js', 438, 420 ]
+194 silly gunzTarPerm extractEntry lib/index.js
+195 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+196 silly gunzTarPerm extractEntry lib/utils.js
+197 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+198 silly gunzTarPerm extractEntry lib/model.js
+199 silly gunzTarPerm modified mode [ 'lib/model.js', 438, 420 ]
+200 silly gunzTarPerm extractEntry lib/collection.js
+201 silly gunzTarPerm modified mode [ 'lib/collection.js', 438, 420 ]
+202 silly gunzTarPerm extractEntry lib/query.js
+203 silly gunzTarPerm modified mode [ 'lib/query.js', 438, 420 ]
+204 silly gunzTarPerm extractEntry lib/queryhelpers.js
+205 silly gunzTarPerm modified mode [ 'lib/queryhelpers.js', 438, 420 ]
+206 silly gunzTarPerm extractEntry lib/querystream.js
+207 silly gunzTarPerm modified mode [ 'lib/querystream.js', 438, 420 ]
+208 silly gunzTarPerm extractEntry lib/document.js
+209 silly gunzTarPerm modified mode [ 'lib/document.js', 438, 420 ]
+210 silly gunzTarPerm extractEntry lib/schematype.js
+211 silly gunzTarPerm modified mode [ 'lib/schematype.js', 438, 420 ]
+212 silly gunzTarPerm extractEntry lib/connectionstate.js
+213 silly gunzTarPerm modified mode [ 'lib/connectionstate.js', 438, 420 ]
+214 silly gunzTarPerm extractEntry lib/schema.js
+215 silly gunzTarPerm modified mode [ 'lib/schema.js', 438, 420 ]
+216 silly gunzTarPerm extractEntry lib/connection.js
+217 silly gunzTarPerm modified mode [ 'lib/connection.js', 438, 420 ]
+218 silly gunzTarPerm extractEntry lib/schemadefault.js
+219 silly gunzTarPerm modified mode [ 'lib/schemadefault.js', 438, 420 ]
+220 silly gunzTarPerm extractEntry lib/internal.js
+221 silly gunzTarPerm modified mode [ 'lib/internal.js', 438, 420 ]
+222 silly gunzTarPerm extractEntry lib/virtualtype.js
+223 silly gunzTarPerm modified mode [ 'lib/virtualtype.js', 438, 420 ]
+224 silly gunzTarPerm extractEntry lib/promise.js
+225 silly gunzTarPerm modified mode [ 'lib/promise.js', 438, 420 ]
+226 silly gunzTarPerm extractEntry lib/schema/array.js
+227 silly gunzTarPerm modified mode [ 'lib/schema/array.js', 438, 420 ]
+228 silly gunzTarPerm extractEntry lib/schema/boolean.js
+229 silly gunzTarPerm modified mode [ 'lib/schema/boolean.js', 438, 420 ]
+230 silly gunzTarPerm extractEntry lib/schema/buffer.js
+231 silly gunzTarPerm modified mode [ 'lib/schema/buffer.js', 438, 420 ]
+232 silly gunzTarPerm extractEntry lib/schema/date.js
+233 silly gunzTarPerm modified mode [ 'lib/schema/date.js', 438, 420 ]
+234 silly gunzTarPerm extractEntry lib/schema/documentarray.js
+235 silly gunzTarPerm modified mode [ 'lib/schema/documentarray.js', 438, 420 ]
+236 silly gunzTarPerm extractEntry lib/schema/index.js
+237 silly gunzTarPerm modified mode [ 'lib/schema/index.js', 438, 420 ]
+238 silly gunzTarPerm extractEntry lib/schema/mixed.js
+239 silly gunzTarPerm modified mode [ 'lib/schema/mixed.js', 438, 420 ]
+240 silly gunzTarPerm extractEntry lib/schema/number.js
+241 silly gunzTarPerm modified mode [ 'lib/schema/number.js', 438, 420 ]
+242 silly gunzTarPerm extractEntry lib/schema/objectid.js
+243 silly gunzTarPerm modified mode [ 'lib/schema/objectid.js', 438, 420 ]
+244 silly gunzTarPerm extractEntry lib/schema/string.js
+245 silly gunzTarPerm modified mode [ 'lib/schema/string.js', 438, 420 ]
+246 silly gunzTarPerm extractEntry lib/error/cast.js
+247 silly gunzTarPerm modified mode [ 'lib/error/cast.js', 438, 420 ]
+248 silly gunzTarPerm extractEntry lib/error/divergentArray.js
+249 silly gunzTarPerm modified mode [ 'lib/error/divergentArray.js', 438, 420 ]
+250 silly gunzTarPerm extractEntry lib/error/messages.js
+251 silly gunzTarPerm modified mode [ 'lib/error/messages.js', 438, 420 ]
+252 silly gunzTarPerm extractEntry lib/error/missingSchema.js
+253 silly gunzTarPerm modified mode [ 'lib/error/missingSchema.js', 438, 420 ]
+254 silly gunzTarPerm extractEntry lib/error/overwriteModel.js
+255 silly gunzTarPerm modified mode [ 'lib/error/overwriteModel.js', 438, 420 ]
+256 silly gunzTarPerm extractEntry lib/error/validation.js
+257 silly gunzTarPerm modified mode [ 'lib/error/validation.js', 438, 420 ]
+258 silly gunzTarPerm extractEntry lib/error/validator.js
+259 silly gunzTarPerm modified mode [ 'lib/error/validator.js', 438, 420 ]
+260 silly gunzTarPerm extractEntry lib/error/version.js
+261 silly gunzTarPerm modified mode [ 'lib/error/version.js', 438, 420 ]
+262 silly gunzTarPerm extractEntry lib/types/array.js
+263 silly gunzTarPerm modified mode [ 'lib/types/array.js', 438, 420 ]
+264 silly gunzTarPerm extractEntry lib/types/buffer.js
+265 silly gunzTarPerm modified mode [ 'lib/types/buffer.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry lib/types/documentarray.js
+267 silly gunzTarPerm modified mode [ 'lib/types/documentarray.js', 438, 420 ]
+268 silly gunzTarPerm extractEntry lib/types/embedded.js
+269 silly gunzTarPerm modified mode [ 'lib/types/embedded.js', 438, 420 ]
+270 silly gunzTarPerm extractEntry lib/types/index.js
+271 silly gunzTarPerm modified mode [ 'lib/types/index.js', 438, 420 ]
+272 silly gunzTarPerm extractEntry lib/types/objectid.js
+273 silly gunzTarPerm modified mode [ 'lib/types/objectid.js', 438, 420 ]
+274 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/binary.js
+275 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/binary.js', 438, 420 ]
+276 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/collection.js
+277 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/collection.js', 438, 420 ]
+278 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/connection.js
+279 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/connection.js', 438, 420 ]
+280 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/objectid.js
+281 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/objectid.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry lib/drivers/SPEC.md
+283 silly gunzTarPerm modified mode [ 'lib/drivers/SPEC.md', 438, 420 ]
+284 silly gunzTarPerm extractEntry examples/README.md
+285 silly gunzTarPerm modified mode [ 'examples/README.md', 438, 420 ]
+286 silly gunzTarPerm extractEntry examples/doc-methods.js
+287 silly gunzTarPerm modified mode [ 'examples/doc-methods.js', 438, 420 ]
+288 silly gunzTarPerm extractEntry examples/population/population-across-three-collections.js
+289 silly gunzTarPerm modified mode [ 'examples/population/population-across-three-collections.js',
+289 silly gunzTarPerm   438,
+289 silly gunzTarPerm   420 ]
+290 silly gunzTarPerm extractEntry examples/population/population-basic.js
+291 silly gunzTarPerm modified mode [ 'examples/population/population-basic.js', 438, 420 ]
+292 silly gunzTarPerm extractEntry examples/population/population-of-existing-doc.js
+293 silly gunzTarPerm modified mode [ 'examples/population/population-of-existing-doc.js', 438, 420 ]
+294 silly gunzTarPerm extractEntry examples/population/population-of-multiple-existing-docs.js
+295 silly gunzTarPerm modified mode [ 'examples/population/population-of-multiple-existing-docs.js',
+295 silly gunzTarPerm   438,
+295 silly gunzTarPerm   420 ]
+296 silly gunzTarPerm extractEntry examples/population/population-options.js
+297 silly gunzTarPerm modified mode [ 'examples/population/population-options.js', 438, 420 ]
+298 silly gunzTarPerm extractEntry examples/population/population-plain-objects.js
+299 silly gunzTarPerm modified mode [ 'examples/population/population-plain-objects.js', 438, 420 ]
+300 silly gunzTarPerm extractEntry examples/geospatial/package.json
+301 silly gunzTarPerm modified mode [ 'examples/geospatial/package.json', 438, 420 ]
+302 silly gunzTarPerm extractEntry examples/geospatial/geoJSONexample.js
+303 silly gunzTarPerm modified mode [ 'examples/geospatial/geoJSONexample.js', 438, 420 ]
+304 silly gunzTarPerm extractEntry examples/geospatial/geoJSONSchema.js
+305 silly gunzTarPerm modified mode [ 'examples/geospatial/geoJSONSchema.js', 438, 420 ]
+306 silly gunzTarPerm extractEntry examples/geospatial/geospatial.js
+307 silly gunzTarPerm modified mode [ 'examples/geospatial/geospatial.js', 438, 420 ]
+308 silly gunzTarPerm extractEntry examples/geospatial/person.js
+309 silly gunzTarPerm modified mode [ 'examples/geospatial/person.js', 438, 420 ]
+310 silly gunzTarPerm extractEntry examples/globalschemas/gs_example.js
+311 silly gunzTarPerm modified mode [ 'examples/globalschemas/gs_example.js', 438, 420 ]
+312 silly gunzTarPerm extractEntry examples/globalschemas/person.js
+313 silly gunzTarPerm modified mode [ 'examples/globalschemas/person.js', 438, 420 ]
+314 silly gunzTarPerm extractEntry examples/lean/package.json
+315 silly gunzTarPerm modified mode [ 'examples/lean/package.json', 438, 420 ]
+316 silly gunzTarPerm extractEntry examples/lean/lean.js
+317 silly gunzTarPerm modified mode [ 'examples/lean/lean.js', 438, 420 ]
+318 silly gunzTarPerm extractEntry examples/lean/person.js
+319 silly gunzTarPerm modified mode [ 'examples/lean/person.js', 438, 420 ]
+320 silly gunzTarPerm extractEntry examples/mapreduce/package.json
+321 silly gunzTarPerm modified mode [ 'examples/mapreduce/package.json', 438, 420 ]
+322 silly gunzTarPerm extractEntry examples/mapreduce/mapreduce.js
+323 silly gunzTarPerm modified mode [ 'examples/mapreduce/mapreduce.js', 438, 420 ]
+324 silly gunzTarPerm extractEntry examples/mapreduce/person.js
+325 silly gunzTarPerm modified mode [ 'examples/mapreduce/person.js', 438, 420 ]
+326 silly gunzTarPerm extractEntry examples/aggregate/package.json
+327 silly gunzTarPerm modified mode [ 'examples/aggregate/package.json', 438, 420 ]
+328 silly gunzTarPerm extractEntry examples/aggregate/aggregate.js
+329 silly gunzTarPerm modified mode [ 'examples/aggregate/aggregate.js', 438, 420 ]
+330 silly gunzTarPerm extractEntry examples/aggregate/person.js
+331 silly gunzTarPerm modified mode [ 'examples/aggregate/person.js', 438, 420 ]
+332 silly gunzTarPerm extractEntry examples/promises/package.json
+333 silly gunzTarPerm modified mode [ 'examples/promises/package.json', 438, 420 ]
+334 silly gunzTarPerm extractEntry examples/promises/person.js
+335 silly gunzTarPerm modified mode [ 'examples/promises/person.js', 438, 420 ]
+336 silly gunzTarPerm extractEntry examples/promises/promise.js
+337 silly gunzTarPerm modified mode [ 'examples/promises/promise.js', 438, 420 ]
+338 silly gunzTarPerm extractEntry examples/querybuilder/package.json
+339 silly gunzTarPerm modified mode [ 'examples/querybuilder/package.json', 438, 420 ]
+340 silly gunzTarPerm extractEntry examples/querybuilder/person.js
+341 silly gunzTarPerm modified mode [ 'examples/querybuilder/person.js', 438, 420 ]
+342 silly gunzTarPerm extractEntry examples/querybuilder/querybuilder.js
+343 silly gunzTarPerm modified mode [ 'examples/querybuilder/querybuilder.js', 438, 420 ]
+344 silly gunzTarPerm extractEntry examples/express/README.md
+345 silly gunzTarPerm modified mode [ 'examples/express/README.md', 438, 420 ]
+346 silly gunzTarPerm extractEntry examples/express/connection-sharing/package.json
+347 silly gunzTarPerm modified mode [ 'examples/express/connection-sharing/package.json', 438, 420 ]
+348 silly gunzTarPerm extractEntry examples/express/connection-sharing/README.md
+349 silly gunzTarPerm modified mode [ 'examples/express/connection-sharing/README.md', 438, 420 ]
+350 silly gunzTarPerm extractEntry examples/express/connection-sharing/app.js
+351 silly gunzTarPerm modified mode [ 'examples/express/connection-sharing/app.js', 438, 420 ]
+352 silly gunzTarPerm extractEntry examples/express/connection-sharing/modelA.js
+353 silly gunzTarPerm modified mode [ 'examples/express/connection-sharing/modelA.js', 438, 420 ]
+354 silly gunzTarPerm extractEntry examples/express/connection-sharing/routes.js
+355 silly gunzTarPerm modified mode [ 'examples/express/connection-sharing/routes.js', 438, 420 ]
+356 silly gunzTarPerm extractEntry examples/replicasets/package.json
+357 silly gunzTarPerm modified mode [ 'examples/replicasets/package.json', 438, 420 ]
+358 silly gunzTarPerm extractEntry examples/replicasets/person.js
+359 silly gunzTarPerm modified mode [ 'examples/replicasets/person.js', 438, 420 ]
+360 silly gunzTarPerm extractEntry examples/replicasets/replica-sets.js
+361 silly gunzTarPerm modified mode [ 'examples/replicasets/replica-sets.js', 438, 420 ]
+362 silly gunzTarPerm extractEntry examples/schema/schema.js
+363 silly gunzTarPerm modified mode [ 'examples/schema/schema.js', 438, 420 ]
+364 silly gunzTarPerm extractEntry examples/schema/storing-schemas-as-json/index.js
+365 silly gunzTarPerm modified mode [ 'examples/schema/storing-schemas-as-json/index.js', 438, 420 ]
+366 silly gunzTarPerm extractEntry examples/schema/storing-schemas-as-json/schema.json
+367 silly gunzTarPerm modified mode [ 'examples/schema/storing-schemas-as-json/schema.json',
+367 silly gunzTarPerm   438,
+367 silly gunzTarPerm   420 ]
+368 silly gunzTarPerm extractEntry examples/statics/person.js
+369 silly gunzTarPerm modified mode [ 'examples/statics/person.js', 438, 420 ]
+370 silly gunzTarPerm extractEntry examples/statics/statics.js
+371 silly gunzTarPerm modified mode [ 'examples/statics/statics.js', 438, 420 ]
+372 silly gunzTarPerm extractEntry contRun.sh
+373 silly gunzTarPerm modified mode [ 'contRun.sh', 438, 420 ]
+374 silly gunzTarPerm extractEntry release-items.md
+375 silly gunzTarPerm modified mode [ 'release-items.md', 438, 420 ]
+376 silly gunzTarPerm extractEntry CONTRIBUTING.md
+377 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+378 silly lockFile 0e5be08b-npm-cache-mongoose-3-8-8-package tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package
+379 silly lockFile 0e5be08b-npm-cache-mongoose-3-8-8-package tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package
+380 silly lockFile 117af062-cache-mongoose-3-8-8-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+381 silly lockFile 117af062-cache-mongoose-3-8-8-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+382 verbose chmod C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz 644
+383 silly chown skipping for windows C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+384 silly lockFile 12f1bda5--org-mongoose-mongoose-3-8-8-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.8.8.tgz
+385 silly lockFile 12f1bda5--org-mongoose-mongoose-3-8-8-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.8.8.tgz
+386 silly lockFile 60cf8ebc-mongoose-3-8-8 mongoose@3.8.8
+387 silly lockFile 60cf8ebc-mongoose-3-8-8 mongoose@3.8.8
+388 silly lockFile 3bb0fc31-mongoose mongoose@
+389 silly lockFile 3bb0fc31-mongoose mongoose@
+390 silly resolved [ { name: 'mongoose',
+390 silly resolved     description: 'Mongoose MongoDB ODM',
+390 silly resolved     version: '3.8.8',
+390 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+390 silly resolved     keywords:
+390 silly resolved      [ 'mongodb',
+390 silly resolved        'document',
+390 silly resolved        'model',
+390 silly resolved        'schema',
+390 silly resolved        'database',
+390 silly resolved        'odm',
+390 silly resolved        'data',
+390 silly resolved        'datastore',
+390 silly resolved        'query',
+390 silly resolved        'nosql',
+390 silly resolved        'orm',
+390 silly resolved        'db' ],
+390 silly resolved     dependencies:
+390 silly resolved      { hooks: '0.2.1',
+390 silly resolved        mongodb: '1.3.23',
+390 silly resolved        ms: '0.1.0',
+390 silly resolved        sliced: '0.0.5',
+390 silly resolved        muri: '0.3.1',
+390 silly resolved        mpromise: '0.4.3',
+390 silly resolved        mpath: '0.1.1',
+390 silly resolved        'regexp-clone': '0.0.1',
+390 silly resolved        mquery: '0.5.3' },
+390 silly resolved     devDependencies:
+390 silly resolved      { mocha: '1.12.0',
+390 silly resolved        'node-static': '0.5.9',
+390 silly resolved        dox: '0.3.1',
+390 silly resolved        jade: '0.26.3',
+390 silly resolved        'highlight.js': '7.0.1',
+390 silly resolved        markdown: '0.3.1',
+390 silly resolved        'promises-aplus-tests': '>= 1.0.2',
+390 silly resolved        tbd: '0.6.4',
+390 silly resolved        benchmark: '1.0.0',
+390 silly resolved        open: '0.0.3',
+390 silly resolved        async: '0.2.5' },
+390 silly resolved     directories: { lib: './lib/mongoose' },
+390 silly resolved     scripts: { test: 'make test' },
+390 silly resolved     main: './index.js',
+390 silly resolved     engines: { node: '>=0.6.19' },
+390 silly resolved     bugs:
+390 silly resolved      { url: 'https://github.com/learnboost/mongoose/issues/new',
+390 silly resolved        email: 'mongoose-orm@googlegroups.com' },
+390 silly resolved     repository: { type: 'git', url: 'git://github.com/LearnBoost/mongoose.git' },
+390 silly resolved     homepage: 'http://mongoosejs.com',
+390 silly resolved     readme: '# Mongoose\n\nMongoose is a [MongoDB](http://www.mongodb.org/) object modeling tool designed to work in an asynchronous environment.\n\n[![Build Status](https://travis-ci.org/LearnBoost/mongoose.png?branch=3.8.x)](https://travis-ci.org/LearnBoost/mongoose)\n\n## Documentation\n\n[mongoosejs.com](http://mongoosejs.com/)\n\n## Support\n\n  - [Stack Overflow](http://stackoverflow.com/questions/tagged/mongoose)\n  - [bug reports](https://github.com/learnboost/mongoose/issues/)\n  - [help forum](http://groups.google.com/group/mongoose-orm)\n  - [MongoDB support](http://www.mongodb.org/display/DOCS/Technical+Support)\n  - (irc) #mongoosejs on freenode\n\n## Plugins\n\nCheck out the [plugins search site](http://plugins.mongoosejs.com/) to see hundreds of related modules from the community.\n\n## Contributors\n\nView all 100+ [contributors](https://github.com/learnboost/mongoose/graphs/contributors). Stand up and be counted as a [contributor](https://github.com/LearnBoost/mongoose/blob/master/CONTRIBUTING.md) too!\n\n## Live Examples\n<a href="https://runnable.com/mongoose" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>\n\n## Installation\n\nFirst install [node.js](http://nodejs.org/) and [mongodb](http://www.mongodb.org/downloads). Then:\n\n```sh\n$ npm install mongoose\n```\n\n## Stability\n\nThe current stable branch is [3.8.x](https://github.com/LearnBoost/mongoose/tree/3.8.x). New (unstable) development always occurs on the [master](https://github.com/LearnBoost/mongoose/tree/master) branch.\n\n## Overview\n\n### Connecting to MongoDB\n\nFirst, we need to define a connection. If your app uses only one database, you should use `mongoose.connect`. If you need to create additional connections, use `mongoose.createConnection`.\n\nBoth `connect` and `createConnection` take a `mongodb://` URI, or the parameters `host, database, port, options`.\n\n```js\nvar mongoose = require(\'mongoose\');\n\nmongoose.connect(\'mongodb://localhost/my_database\');\n```\n\nOnce connected, the `open` event is fired on the `Connection` instance. If you\'re using `mongoose.connect`, the `Connection` is `mongoose.connection`. Otherwise, `mongoose.createConnection` return value is a `Connection`.\n\n**Important!** Mongoose buffers all the commands until it\'s connected to the database. This means that you don\'t have to wait until it connects to MongoDB in order to define models, run queries, etc.\n\n### Defining a Model\n\nModels are defined through the `Schema` interface. \n\n```js\nvar Schema = mongoose.Schema\n  , ObjectId = Schema.ObjectId;\n\nvar BlogPost = new Schema({\n    author    : ObjectId\n  , title     : String\n  , body      : String\n  , date      : Date\n});\n```\n\nAside from defining the structure of your documents and the types of data you\'re storing, a Schema handles the definition of:\n\n* [Validators](http://mongoosejs.com/docs/validation.html) (async and sync)\n* [Defaults](http://mongoosejs.com/docs/api.html#schematype_SchemaType-default)\n* [Getters](http://mongoosejs.com/docs/api.html#schematype_SchemaType-get)\n* [Setters](http://mongoosejs.com/docs/api.html#schematype_SchemaType-set)\n* [Indexes](http://mongoosejs.com/docs/guide.html#indexes)\n* [Middleware](http://mongoosejs.com/docs/middleware.html)\n* [Methods](http://mongoosejs.com/docs/guide.html#methods) definition\n* [Statics](http://mongoosejs.com/docs/guide.html#statics) definition\n* [Plugins](http://mongoosejs.com/docs/plugins.html)\n* [pseudo-JOINs](http://mongoosejs.com/docs/populate.html)\n\nThe following example shows some of these features:\n\n```js\nvar Comment = new Schema({\n    name  :  { type: String, default: \'hahaha\' }\n  , age   :  { type: Number, min: 18, index: true }\n  , bio   :  { type: String, match: /[a-z]/ }\n  , date  :  { type: Date, default: Date.now }\n  , buff  :  Buffer\n});\n\n// a setter\nComment.path(\'name\').set(function (v) {\n  return capitalize(v);\n});\n\n// middleware\nComment.pre(\'save\', function (next) {\n  notify(this.get(\'email\'));\n  next();\n});\n```\n\nTake a look at the example in `examples/schema.js` for an end-to-end example of a typical setup.\n\n### Accessing a Model\n\nOnce we define a model through `mongoose.model(\'ModelName\', mySchema)`, we can access it through the same function\n\n```js\nvar myModel = mongoose.model(\'ModelName\');\n```\n\nOr just do it all at once\n\n```js\nvar MyModel = mongoose.model(\'ModelName\', mySchema);\n```\n\nWe can then instantiate it, and save it:\n\n```js\nvar instance = new MyModel();\ninstance.my.key = \'hello\';\ninstance.save(function (err) {\n  //\n});\n```\n\nOr we can find documents from the same collection\n\n```js\nMyModel.find({}, function (err, docs) {\n  // docs.forEach\n});\n```\n\nYou can also `findOne`, `findById`, `update`, etc. For more details check out [the docs](http://mongoosejs.com/docs/queries.html).\n\n**Important!** If you opened a separate connection using `mongoose.createConnection()` but attempt to access the model through `mongoose.model(\'ModelName\')` it will not work as expected since it is not hooked up to an active db connection. In this case access your model through the connection you created:\n\n```js\nvar conn = mongoose.createConnection(\'your connection string\')\n  , MyModel = conn.model(\'ModelName\', schema)\n  , m = new MyModel;\nm.save(); // works\n```\n\nvs\n\n```js\nvar conn = mongoose.createConnection(\'your connection string\')\n  , MyModel = mongoose.model(\'ModelName\', schema)\n  , m = new MyModel;\nm.save(); // does not work b/c the default connection object was never connected\n```\n\n### Embedded Documents\n\nIn the first example snippet, we defined a key in the Schema that looks like:\n\n```\ncomments: [Comments]\n```\n\nWhere `Comments` is a `Schema` we created. This means that creating embedded documents is as simple as:\n\n```js\n// retrieve my model\nvar BlogPost = mongoose.model(\'BlogPost\');\n\n// create a blog post\nvar post = new BlogPost();\n\n// create a comment\npost.comments.push({ title: \'My comment\' });\n\npost.save(function (err) {\n  if (!err) console.log(\'Success!\');\n});\n```\n\nThe same goes for removing them:\n\n```js\nBlogPost.findById(myId, function (err, post) {\n  if (!err) {\n    post.comments[0].remove();\n    post.save(function (err) {\n      // do something\n    });\n  }\n});\n```\n\nEmbedded documents enjoy all the same features as your models. Defaults, validators, middleware. Whenever an error occurs, it\'s bubbled to the `save()` error callback, so error handling is a snap!\n\nMongoose interacts with your embedded documents in arrays _atomically_, out of the box.\n\n### Middleware\n\nSee the [docs](http://mongoosejs.com/docs/middleware.html) page.\n\n#### Intercepting and mutating method arguments\n\nYou can intercept method arguments via middleware.\n\nFor example, this would allow you to broadcast changes about your Documents every time someone `set`s a path in your Document to a new value:\n\n```js\nschema.pre(\'set\', function (next, path, val, typel) {\n  // `this` is the current Document\n  this.emit(\'set\', path, val);\n\n  // Pass control to the next pre\n  next();\n});\n```\n\nMoreover, you can mutate the incoming `method` arguments so that subsequent middleware see different values for those arguments. To do so, just pass the new values to `next`:\n\n```js\n.pre(method, function firstPre (next, methodArg1, methodArg2) {\n  // Mutate methodArg1\n  next("altered-" + methodArg1.toString(), methodArg2);\n});\n\n// pre declaration is chainable\n.pre(method, function secondPre (next, methodArg1, methodArg2) {\n  console.log(methodArg1);\n  // => \'altered-originalValOfMethodArg1\' \n      \n  console.log(methodArg2);\n  // => \'originalValOfMethodArg2\' \n      \n  // Passing no arguments to `next` automatically passes along the current argument values\n  // i.e., the following `next()` is equivalent to `next(methodArg1, methodArg2)`\n  // and also equivalent to, with the example method arg \n  // values, `next(\'altered-originalValOfMethodArg1\', \'originalValOfMethodArg2\')`\n  next();\n});\n```\n\n#### Schema gotcha\n\n`type`, when used in a schema has special meaning within Mongoose. If your schema requires using `type` as a nested property you must use object notation:\n\n```js\nnew Schema({\n    broken: { type: Boolean }\n  , asset : {\n        name: String\n      , type: String // uh oh, it broke. asset will be interpreted as String\n    }\n});\n\nnew Schema({\n    works: { type: Boolean }\n  , asset : {\n        name: String\n      , type: { type: String } // works. asset is an object with a type property\n    }\n});\n```\n\n### Driver access\n\nThe driver being used defaults to [node-mongodb-native](https://github.com/mongodb/node-mongodb-native) and is directly accessible through `YourModel.collection`. **Note**: using the driver directly bypasses all Mongoose power-tools like validation, getters, setters, hooks, etc.\n\n## API Docs\n\nFind the API docs [here](http://mongoosejs.com/docs/api.html), generated using [dox](http://github.com/visionmedia/dox).\n\n## License\n\nCopyright (c) 2010 LearnBoost &lt;dev@learnboost.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+390 silly resolved     readmeFilename: 'README.md',
+390 silly resolved     _id: 'mongoose@3.8.8',
+390 silly resolved     dist: { shasum: '221570958357c7185afc243d1b68df811c359b45' },
+390 silly resolved     _from: 'mongoose@',
+390 silly resolved     _resolved: 'https://registry.npmjs.org/mongoose/-/mongoose-3.8.8.tgz' } ]
+391 info install mongoose@3.8.8 into C:\Users\jayantha\AppData\Roaming\npm
+392 info installOne mongoose@3.8.8
+393 info C:\Users\jayantha\AppData\Roaming\npm\node_modules\mongoose unbuild
+394 verbose tar unpack C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+395 silly lockFile b113bdad-oaming-npm-node-modules-mongoose tar://C:\Users\jayantha\AppData\Roaming\npm\node_modules\mongoose
+396 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm\node_modules\mongoose C:\Users\jayantha\AppData\Roaming\npm-cache\b113bdad-oaming-npm-node-modules-mongoose.lock
+397 silly lockFile 117af062-cache-mongoose-3-8-8-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+398 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\117af062-cache-mongoose-3-8-8-package-tgz.lock
+399 silly gunzTarPerm modes [ '755', '644' ]
+400 silly gunzTarPerm extractEntry package.json
+401 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+402 silly gunzTarPerm extractEntry .npmignore
+403 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+404 silly gunzTarPerm extractEntry README.md
+405 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+406 silly gunzTarPerm extractEntry static.js
+407 silly gunzTarPerm modified mode [ 'static.js', 438, 420 ]
+408 silly gunzTarPerm extractEntry website.js
+409 silly gunzTarPerm modified mode [ 'website.js', 438, 420 ]
+410 silly gunzTarPerm extractEntry index.js
+411 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+412 silly gunzTarPerm extractEntry History.md
+413 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+414 silly gunzTarPerm extractEntry .travis.yml
+415 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+416 silly gunzTarPerm extractEntry lib/aggregate.js
+417 silly gunzTarPerm modified mode [ 'lib/aggregate.js', 438, 420 ]
+418 silly gunzTarPerm extractEntry lib/statemachine.js
+419 silly gunzTarPerm modified mode [ 'lib/statemachine.js', 438, 420 ]
+420 silly gunzTarPerm extractEntry lib/error.js
+421 silly gunzTarPerm modified mode [ 'lib/error.js', 438, 420 ]
+422 silly gunzTarPerm extractEntry lib/index.js
+423 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+424 silly gunzTarPerm extractEntry lib/utils.js
+425 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+426 silly gunzTarPerm extractEntry lib/model.js
+427 silly gunzTarPerm modified mode [ 'lib/model.js', 438, 420 ]
+428 silly gunzTarPerm extractEntry lib/collection.js
+429 silly gunzTarPerm modified mode [ 'lib/collection.js', 438, 420 ]
+430 silly gunzTarPerm extractEntry lib/query.js
+431 silly gunzTarPerm modified mode [ 'lib/query.js', 438, 420 ]
+432 silly gunzTarPerm extractEntry lib/queryhelpers.js
+433 silly gunzTarPerm modified mode [ 'lib/queryhelpers.js', 438, 420 ]
+434 silly gunzTarPerm extractEntry lib/querystream.js
+435 silly gunzTarPerm modified mode [ 'lib/querystream.js', 438, 420 ]
+436 silly gunzTarPerm extractEntry lib/document.js
+437 silly gunzTarPerm modified mode [ 'lib/document.js', 438, 420 ]
+438 silly gunzTarPerm extractEntry lib/schematype.js
+439 silly gunzTarPerm modified mode [ 'lib/schematype.js', 438, 420 ]
+440 silly gunzTarPerm extractEntry lib/connectionstate.js
+441 silly gunzTarPerm modified mode [ 'lib/connectionstate.js', 438, 420 ]
+442 silly gunzTarPerm extractEntry lib/schema.js
+443 silly gunzTarPerm modified mode [ 'lib/schema.js', 438, 420 ]
+444 silly gunzTarPerm extractEntry lib/connection.js
+445 silly gunzTarPerm modified mode [ 'lib/connection.js', 438, 420 ]
+446 silly gunzTarPerm extractEntry lib/schemadefault.js
+447 silly gunzTarPerm modified mode [ 'lib/schemadefault.js', 438, 420 ]
+448 silly gunzTarPerm extractEntry lib/internal.js
+449 silly gunzTarPerm modified mode [ 'lib/internal.js', 438, 420 ]
+450 silly gunzTarPerm extractEntry lib/virtualtype.js
+451 silly gunzTarPerm modified mode [ 'lib/virtualtype.js', 438, 420 ]
+452 silly gunzTarPerm extractEntry lib/promise.js
+453 silly gunzTarPerm modified mode [ 'lib/promise.js', 438, 420 ]
+454 silly gunzTarPerm extractEntry lib/schema/array.js
+455 silly gunzTarPerm modified mode [ 'lib/schema/array.js', 438, 420 ]
+456 silly gunzTarPerm extractEntry lib/schema/boolean.js
+457 silly gunzTarPerm modified mode [ 'lib/schema/boolean.js', 438, 420 ]
+458 silly gunzTarPerm extractEntry lib/schema/buffer.js
+459 silly gunzTarPerm modified mode [ 'lib/schema/buffer.js', 438, 420 ]
+460 silly gunzTarPerm extractEntry lib/schema/date.js
+461 silly gunzTarPerm modified mode [ 'lib/schema/date.js', 438, 420 ]
+462 silly gunzTarPerm extractEntry lib/schema/documentarray.js
+463 silly gunzTarPerm modified mode [ 'lib/schema/documentarray.js', 438, 420 ]
+464 silly gunzTarPerm extractEntry lib/schema/index.js
+465 silly gunzTarPerm modified mode [ 'lib/schema/index.js', 438, 420 ]
+466 silly gunzTarPerm extractEntry lib/schema/mixed.js
+467 silly gunzTarPerm modified mode [ 'lib/schema/mixed.js', 438, 420 ]
+468 silly gunzTarPerm extractEntry lib/schema/number.js
+469 silly gunzTarPerm modified mode [ 'lib/schema/number.js', 438, 420 ]
+470 silly gunzTarPerm extractEntry lib/schema/objectid.js
+471 silly gunzTarPerm modified mode [ 'lib/schema/objectid.js', 438, 420 ]
+472 silly gunzTarPerm extractEntry lib/schema/string.js
+473 silly gunzTarPerm modified mode [ 'lib/schema/string.js', 438, 420 ]
+474 silly gunzTarPerm extractEntry lib/error/cast.js
+475 silly gunzTarPerm modified mode [ 'lib/error/cast.js', 438, 420 ]
+476 silly gunzTarPerm extractEntry lib/error/divergentArray.js
+477 silly gunzTarPerm modified mode [ 'lib/error/divergentArray.js', 438, 420 ]
+478 silly gunzTarPerm extractEntry lib/error/messages.js
+479 silly gunzTarPerm modified mode [ 'lib/error/messages.js', 438, 420 ]
+480 silly gunzTarPerm extractEntry lib/error/missingSchema.js
+481 silly gunzTarPerm modified mode [ 'lib/error/missingSchema.js', 438, 420 ]
+482 silly gunzTarPerm extractEntry lib/error/overwriteModel.js
+483 silly gunzTarPerm modified mode [ 'lib/error/overwriteModel.js', 438, 420 ]
+484 silly gunzTarPerm extractEntry lib/error/validation.js
+485 silly gunzTarPerm modified mode [ 'lib/error/validation.js', 438, 420 ]
+486 silly gunzTarPerm extractEntry lib/error/validator.js
+487 silly gunzTarPerm modified mode [ 'lib/error/validator.js', 438, 420 ]
+488 silly gunzTarPerm extractEntry lib/error/version.js
+489 silly gunzTarPerm modified mode [ 'lib/error/version.js', 438, 420 ]
+490 silly gunzTarPerm extractEntry lib/types/array.js
+491 silly gunzTarPerm modified mode [ 'lib/types/array.js', 438, 420 ]
+492 silly gunzTarPerm extractEntry lib/types/buffer.js
+493 silly gunzTarPerm modified mode [ 'lib/types/buffer.js', 438, 420 ]
+494 silly gunzTarPerm extractEntry lib/types/documentarray.js
+495 silly gunzTarPerm modified mode [ 'lib/types/documentarray.js', 438, 420 ]
+496 silly gunzTarPerm extractEntry lib/types/embedded.js
+497 silly gunzTarPerm modified mode [ 'lib/types/embedded.js', 438, 420 ]
+498 silly gunzTarPerm extractEntry lib/types/index.js
+499 silly gunzTarPerm modified mode [ 'lib/types/index.js', 438, 420 ]
+500 silly gunzTarPerm extractEntry lib/types/objectid.js
+501 silly gunzTarPerm modified mode [ 'lib/types/objectid.js', 438, 420 ]
+502 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/binary.js
+503 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/binary.js', 438, 420 ]
+504 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/collection.js
+505 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/collection.js', 438, 420 ]
+506 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/connection.js
+507 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/connection.js', 438, 420 ]
+508 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/objectid.js
+509 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/objectid.js', 438, 420 ]
+510 silly gunzTarPerm extractEntry lib/drivers/SPEC.md
+511 silly gunzTarPerm modified mode [ 'lib/drivers/SPEC.md', 438, 420 ]
+512 silly gunzTarPerm extractEntry examples/README.md
+513 silly gunzTarPerm modified mode [ 'examples/README.md', 438, 420 ]
+514 silly gunzTarPerm extractEntry examples/doc-methods.js
+515 silly gunzTarPerm modified mode [ 'examples/doc-methods.js', 438, 420 ]
+516 silly gunzTarPerm extractEntry examples/population/population-across-three-collections.js
+517 silly gunzTarPerm modified mode [ 'examples/population/population-across-three-collections.js',
+517 silly gunzTarPerm   438,
+517 silly gunzTarPerm   420 ]
+518 silly gunzTarPerm extractEntry examples/population/population-basic.js
+519 silly gunzTarPerm modified mode [ 'examples/population/population-basic.js', 438, 420 ]
+520 silly gunzTarPerm extractEntry examples/population/population-of-existing-doc.js
+521 silly gunzTarPerm modified mode [ 'examples/population/population-of-existing-doc.js', 438, 420 ]
+522 silly gunzTarPerm extractEntry examples/population/population-of-multiple-existing-docs.js
+523 silly gunzTarPerm modified mode [ 'examples/population/population-of-multiple-existing-docs.js',
+523 silly gunzTarPerm   438,
+523 silly gunzTarPerm   420 ]
+524 silly gunzTarPerm extractEntry examples/population/population-options.js
+525 silly gunzTarPerm modified mode [ 'examples/population/population-options.js', 438, 420 ]
+526 silly gunzTarPerm extractEntry examples/population/population-plain-objects.js
+527 silly gunzTarPerm modified mode [ 'examples/population/population-plain-objects.js', 438, 420 ]
+528 silly gunzTarPerm extractEntry examples/geospatial/package.json
+529 silly gunzTarPerm modified mode [ 'examples/geospatial/package.json', 438, 420 ]
+530 silly gunzTarPerm extractEntry examples/geospatial/geoJSONexample.js
+531 silly gunzTarPerm modified mode [ 'examples/geospatial/geoJSONexample.js', 438, 420 ]
+532 silly gunzTarPerm extractEntry examples/geospatial/geoJSONSchema.js
+533 silly gunzTarPerm modified mode [ 'examples/geospatial/geoJSONSchema.js', 438, 420 ]
+534 silly gunzTarPerm extractEntry examples/geospatial/geospatial.js
+535 silly gunzTarPerm modified mode [ 'examples/geospatial/geospatial.js', 438, 420 ]
+536 silly gunzTarPerm extractEntry examples/geospatial/person.js
+537 silly gunzTarPerm modified mode [ 'examples/geospatial/person.js', 438, 420 ]
+538 silly gunzTarPerm extractEntry examples/globalschemas/gs_example.js
+539 silly gunzTarPerm modified mode [ 'examples/globalschemas/gs_example.js', 438, 420 ]
+540 silly gunzTarPerm extractEntry examples/globalschemas/person.js
+541 silly gunzTarPerm modified mode [ 'examples/globalschemas/person.js', 438, 420 ]
+542 silly gunzTarPerm extractEntry examples/lean/package.json
+543 silly gunzTarPerm modified mode [ 'examples/lean/package.json', 438, 420 ]
+544 silly gunzTarPerm extractEntry examples/lean/lean.js
+545 silly gunzTarPerm modified mode [ 'examples/lean/lean.js', 438, 420 ]
+546 silly gunzTarPerm extractEntry examples/lean/person.js
+547 silly gunzTarPerm modified mode [ 'examples/lean/person.js', 438, 420 ]
+548 silly gunzTarPerm extractEntry examples/mapreduce/package.json
+549 silly gunzTarPerm modified mode [ 'examples/mapreduce/package.json', 438, 420 ]
+550 silly gunzTarPerm extractEntry examples/mapreduce/mapreduce.js
+551 silly gunzTarPerm modified mode [ 'examples/mapreduce/mapreduce.js', 438, 420 ]
+552 silly gunzTarPerm extractEntry examples/mapreduce/person.js
+553 silly gunzTarPerm modified mode [ 'examples/mapreduce/person.js', 438, 420 ]
+554 silly gunzTarPerm extractEntry examples/aggregate/package.json
+555 silly gunzTarPerm modified mode [ 'examples/aggregate/package.json', 438, 420 ]
+556 silly gunzTarPerm extractEntry examples/aggregate/aggregate.js
+557 silly gunzTarPerm modified mode [ 'examples/aggregate/aggregate.js', 438, 420 ]
+558 silly gunzTarPerm extractEntry examples/aggregate/person.js
+559 silly gunzTarPerm modified mode [ 'examples/aggregate/person.js', 438, 420 ]
+560 silly gunzTarPerm extractEntry examples/promises/package.json
+561 silly gunzTarPerm modified mode [ 'examples/promises/package.json', 438, 420 ]
+562 silly gunzTarPerm extractEntry examples/promises/person.js
+563 silly gunzTarPerm modified mode [ 'examples/promises/person.js', 438, 420 ]
+564 silly gunzTarPerm extractEntry examples/promises/promise.js
+565 silly gunzTarPerm modified mode [ 'examples/promises/promise.js', 438, 420 ]
+566 silly gunzTarPerm extractEntry examples/querybuilder/package.json
+567 silly gunzTarPerm modified mode [ 'examples/querybuilder/package.json', 438, 420 ]
+568 silly gunzTarPerm extractEntry examples/querybuilder/person.js
+569 silly gunzTarPerm modified mode [ 'examples/querybuilder/person.js', 438, 420 ]
+570 silly gunzTarPerm extractEntry examples/querybuilder/querybuilder.js
+571 silly gunzTarPerm modified mode [ 'examples/querybuilder/querybuilder.js', 438, 420 ]
+572 silly gunzTarPerm extractEntry examples/express/README.md
+573 silly gunzTarPerm modified mode [ 'examples/express/README.md', 438, 420 ]
+574 silly gunzTarPerm extractEntry examples/express/connection-sharing/package.json
+575 silly gunzTarPerm modified mode [ 'examples/express/connection-sharing/package.json', 438, 420 ]
+576 silly gunzTarPerm extractEntry examples/express/connection-sharing/README.md
+577 silly gunzTarPerm modified mode [ 'examples/express/connection-sharing/README.md', 438, 420 ]
+578 silly gunzTarPerm extractEntry examples/express/connection-sharing/app.js
+579 silly gunzTarPerm modified mode [ 'examples/express/connection-sharing/app.js', 438, 420 ]
+580 silly gunzTarPerm extractEntry examples/express/connection-sharing/modelA.js
+581 silly gunzTarPerm modified mode [ 'examples/express/connection-sharing/modelA.js', 438, 420 ]
+582 silly gunzTarPerm extractEntry examples/express/connection-sharing/routes.js
+583 silly gunzTarPerm modified mode [ 'examples/express/connection-sharing/routes.js', 438, 420 ]
+584 silly gunzTarPerm extractEntry examples/replicasets/package.json
+585 silly gunzTarPerm modified mode [ 'examples/replicasets/package.json', 438, 420 ]
+586 silly gunzTarPerm extractEntry examples/replicasets/person.js
+587 silly gunzTarPerm modified mode [ 'examples/replicasets/person.js', 438, 420 ]
+588 silly gunzTarPerm extractEntry examples/replicasets/replica-sets.js
+589 silly gunzTarPerm modified mode [ 'examples/replicasets/replica-sets.js', 438, 420 ]
+590 silly gunzTarPerm extractEntry examples/schema/schema.js
+591 silly gunzTarPerm modified mode [ 'examples/schema/schema.js', 438, 420 ]
+592 silly gunzTarPerm extractEntry examples/schema/storing-schemas-as-json/index.js
+593 silly gunzTarPerm modified mode [ 'examples/schema/storing-schemas-as-json/index.js', 438, 420 ]
+594 silly gunzTarPerm extractEntry examples/schema/storing-schemas-as-json/schema.json
+595 silly gunzTarPerm modified mode [ 'examples/schema/storing-schemas-as-json/schema.json',
+595 silly gunzTarPerm   438,
+595 silly gunzTarPerm   420 ]
+596 silly gunzTarPerm extractEntry examples/statics/person.js
+597 silly gunzTarPerm modified mode [ 'examples/statics/person.js', 438, 420 ]
+598 silly gunzTarPerm extractEntry examples/statics/statics.js
+599 silly gunzTarPerm modified mode [ 'examples/statics/statics.js', 438, 420 ]
+600 silly gunzTarPerm extractEntry contRun.sh
+601 silly gunzTarPerm modified mode [ 'contRun.sh', 438, 420 ]
+602 silly gunzTarPerm extractEntry release-items.md
+603 silly gunzTarPerm modified mode [ 'release-items.md', 438, 420 ]
+604 silly gunzTarPerm extractEntry CONTRIBUTING.md
+605 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+606 silly lockFile b113bdad-oaming-npm-node-modules-mongoose tar://C:\Users\jayantha\AppData\Roaming\npm\node_modules\mongoose
+607 silly lockFile b113bdad-oaming-npm-node-modules-mongoose tar://C:\Users\jayantha\AppData\Roaming\npm\node_modules\mongoose
+608 silly lockFile 117af062-cache-mongoose-3-8-8-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+609 silly lockFile 117af062-cache-mongoose-3-8-8-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mongoose\3.8.8\package.tgz
+610 info preinstall mongoose@3.8.8
+611 verbose readDependencies using package.json deps
+612 verbose readDependencies using package.json deps
+613 verbose cache add [ 'hooks@0.2.1', null ]
+614 verbose cache add name=undefined spec="hooks@0.2.1" args=["hooks@0.2.1",null]
+615 verbose parsed url { protocol: null,
+615 verbose parsed url   slashes: null,
+615 verbose parsed url   auth: null,
+615 verbose parsed url   host: null,
+615 verbose parsed url   port: null,
+615 verbose parsed url   hostname: null,
+615 verbose parsed url   hash: null,
+615 verbose parsed url   search: null,
+615 verbose parsed url   query: null,
+615 verbose parsed url   pathname: 'hooks@0.2.1',
+615 verbose parsed url   path: 'hooks@0.2.1',
+615 verbose parsed url   href: 'hooks@0.2.1' }
+616 verbose cache add name="hooks" spec="0.2.1" args=["hooks","0.2.1"]
+617 verbose parsed url { protocol: null,
+617 verbose parsed url   slashes: null,
+617 verbose parsed url   auth: null,
+617 verbose parsed url   host: null,
+617 verbose parsed url   port: null,
+617 verbose parsed url   hostname: null,
+617 verbose parsed url   hash: null,
+617 verbose parsed url   search: null,
+617 verbose parsed url   query: null,
+617 verbose parsed url   pathname: '0.2.1',
+617 verbose parsed url   path: '0.2.1',
+617 verbose parsed url   href: '0.2.1' }
+618 verbose addNamed [ 'hooks', '0.2.1' ]
+619 verbose addNamed [ '0.2.1', '0.2.1' ]
+620 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+621 verbose lock hooks@0.2.1 C:\Users\jayantha\AppData\Roaming\npm-cache\207ce50b-hooks-0-2-1.lock
+622 verbose cache add [ 'mongodb@1.3.23', null ]
+623 verbose cache add name=undefined spec="mongodb@1.3.23" args=["mongodb@1.3.23",null]
+624 verbose parsed url { protocol: null,
+624 verbose parsed url   slashes: null,
+624 verbose parsed url   auth: null,
+624 verbose parsed url   host: null,
+624 verbose parsed url   port: null,
+624 verbose parsed url   hostname: null,
+624 verbose parsed url   hash: null,
+624 verbose parsed url   search: null,
+624 verbose parsed url   query: null,
+624 verbose parsed url   pathname: 'mongodb@1.3.23',
+624 verbose parsed url   path: 'mongodb@1.3.23',
+624 verbose parsed url   href: 'mongodb@1.3.23' }
+625 verbose cache add name="mongodb" spec="1.3.23" args=["mongodb","1.3.23"]
+626 verbose parsed url { protocol: null,
+626 verbose parsed url   slashes: null,
+626 verbose parsed url   auth: null,
+626 verbose parsed url   host: null,
+626 verbose parsed url   port: null,
+626 verbose parsed url   hostname: null,
+626 verbose parsed url   hash: null,
+626 verbose parsed url   search: null,
+626 verbose parsed url   query: null,
+626 verbose parsed url   pathname: '1.3.23',
+626 verbose parsed url   path: '1.3.23',
+626 verbose parsed url   href: '1.3.23' }
+627 verbose addNamed [ 'mongodb', '1.3.23' ]
+628 verbose addNamed [ '1.3.23', '1.3.23' ]
+629 silly lockFile 130bb479-mongodb-1-3-23 mongodb@1.3.23
+630 verbose lock mongodb@1.3.23 C:\Users\jayantha\AppData\Roaming\npm-cache\130bb479-mongodb-1-3-23.lock
+631 verbose cache add [ 'ms@0.1.0', null ]
+632 verbose cache add name=undefined spec="ms@0.1.0" args=["ms@0.1.0",null]
+633 verbose parsed url { protocol: null,
+633 verbose parsed url   slashes: null,
+633 verbose parsed url   auth: null,
+633 verbose parsed url   host: null,
+633 verbose parsed url   port: null,
+633 verbose parsed url   hostname: null,
+633 verbose parsed url   hash: null,
+633 verbose parsed url   search: null,
+633 verbose parsed url   query: null,
+633 verbose parsed url   pathname: 'ms@0.1.0',
+633 verbose parsed url   path: 'ms@0.1.0',
+633 verbose parsed url   href: 'ms@0.1.0' }
+634 verbose cache add name="ms" spec="0.1.0" args=["ms","0.1.0"]
+635 verbose parsed url { protocol: null,
+635 verbose parsed url   slashes: null,
+635 verbose parsed url   auth: null,
+635 verbose parsed url   host: null,
+635 verbose parsed url   port: null,
+635 verbose parsed url   hostname: null,
+635 verbose parsed url   hash: null,
+635 verbose parsed url   search: null,
+635 verbose parsed url   query: null,
+635 verbose parsed url   pathname: '0.1.0',
+635 verbose parsed url   path: '0.1.0',
+635 verbose parsed url   href: '0.1.0' }
+636 verbose addNamed [ 'ms', '0.1.0' ]
+637 verbose addNamed [ '0.1.0', '0.1.0' ]
+638 silly lockFile 9555626c-ms-0-1-0 ms@0.1.0
+639 verbose lock ms@0.1.0 C:\Users\jayantha\AppData\Roaming\npm-cache\9555626c-ms-0-1-0.lock
+640 verbose cache add [ 'sliced@0.0.5', null ]
+641 verbose cache add name=undefined spec="sliced@0.0.5" args=["sliced@0.0.5",null]
+642 verbose parsed url { protocol: null,
+642 verbose parsed url   slashes: null,
+642 verbose parsed url   auth: null,
+642 verbose parsed url   host: null,
+642 verbose parsed url   port: null,
+642 verbose parsed url   hostname: null,
+642 verbose parsed url   hash: null,
+642 verbose parsed url   search: null,
+642 verbose parsed url   query: null,
+642 verbose parsed url   pathname: 'sliced@0.0.5',
+642 verbose parsed url   path: 'sliced@0.0.5',
+642 verbose parsed url   href: 'sliced@0.0.5' }
+643 verbose cache add name="sliced" spec="0.0.5" args=["sliced","0.0.5"]
+644 verbose parsed url { protocol: null,
+644 verbose parsed url   slashes: null,
+644 verbose parsed url   auth: null,
+644 verbose parsed url   host: null,
+644 verbose parsed url   port: null,
+644 verbose parsed url   hostname: null,
+644 verbose parsed url   hash: null,
+644 verbose parsed url   search: null,
+644 verbose parsed url   query: null,
+644 verbose parsed url   pathname: '0.0.5',
+644 verbose parsed url   path: '0.0.5',
+644 verbose parsed url   href: '0.0.5' }
+645 verbose addNamed [ 'sliced', '0.0.5' ]
+646 verbose addNamed [ '0.0.5', '0.0.5' ]
+647 silly lockFile 146acdb0-sliced-0-0-5 sliced@0.0.5
+648 verbose lock sliced@0.0.5 C:\Users\jayantha\AppData\Roaming\npm-cache\146acdb0-sliced-0-0-5.lock
+649 verbose cache add [ 'muri@0.3.1', null ]
+650 verbose cache add name=undefined spec="muri@0.3.1" args=["muri@0.3.1",null]
+651 verbose parsed url { protocol: null,
+651 verbose parsed url   slashes: null,
+651 verbose parsed url   auth: null,
+651 verbose parsed url   host: null,
+651 verbose parsed url   port: null,
+651 verbose parsed url   hostname: null,
+651 verbose parsed url   hash: null,
+651 verbose parsed url   search: null,
+651 verbose parsed url   query: null,
+651 verbose parsed url   pathname: 'muri@0.3.1',
+651 verbose parsed url   path: 'muri@0.3.1',
+651 verbose parsed url   href: 'muri@0.3.1' }
+652 verbose cache add name="muri" spec="0.3.1" args=["muri","0.3.1"]
+653 verbose parsed url { protocol: null,
+653 verbose parsed url   slashes: null,
+653 verbose parsed url   auth: null,
+653 verbose parsed url   host: null,
+653 verbose parsed url   port: null,
+653 verbose parsed url   hostname: null,
+653 verbose parsed url   hash: null,
+653 verbose parsed url   search: null,
+653 verbose parsed url   query: null,
+653 verbose parsed url   pathname: '0.3.1',
+653 verbose parsed url   path: '0.3.1',
+653 verbose parsed url   href: '0.3.1' }
+654 verbose addNamed [ 'muri', '0.3.1' ]
+655 verbose addNamed [ '0.3.1', '0.3.1' ]
+656 silly lockFile 01b66c9e-muri-0-3-1 muri@0.3.1
+657 verbose lock muri@0.3.1 C:\Users\jayantha\AppData\Roaming\npm-cache\01b66c9e-muri-0-3-1.lock
+658 verbose cache add [ 'mpromise@0.4.3', null ]
+659 verbose cache add name=undefined spec="mpromise@0.4.3" args=["mpromise@0.4.3",null]
+660 verbose parsed url { protocol: null,
+660 verbose parsed url   slashes: null,
+660 verbose parsed url   auth: null,
+660 verbose parsed url   host: null,
+660 verbose parsed url   port: null,
+660 verbose parsed url   hostname: null,
+660 verbose parsed url   hash: null,
+660 verbose parsed url   search: null,
+660 verbose parsed url   query: null,
+660 verbose parsed url   pathname: 'mpromise@0.4.3',
+660 verbose parsed url   path: 'mpromise@0.4.3',
+660 verbose parsed url   href: 'mpromise@0.4.3' }
+661 verbose cache add name="mpromise" spec="0.4.3" args=["mpromise","0.4.3"]
+662 verbose parsed url { protocol: null,
+662 verbose parsed url   slashes: null,
+662 verbose parsed url   auth: null,
+662 verbose parsed url   host: null,
+662 verbose parsed url   port: null,
+662 verbose parsed url   hostname: null,
+662 verbose parsed url   hash: null,
+662 verbose parsed url   search: null,
+662 verbose parsed url   query: null,
+662 verbose parsed url   pathname: '0.4.3',
+662 verbose parsed url   path: '0.4.3',
+662 verbose parsed url   href: '0.4.3' }
+663 verbose addNamed [ 'mpromise', '0.4.3' ]
+664 verbose addNamed [ '0.4.3', '0.4.3' ]
+665 silly lockFile 70229a2d-mpromise-0-4-3 mpromise@0.4.3
+666 verbose lock mpromise@0.4.3 C:\Users\jayantha\AppData\Roaming\npm-cache\70229a2d-mpromise-0-4-3.lock
+667 verbose cache add [ 'mpath@0.1.1', null ]
+668 verbose cache add name=undefined spec="mpath@0.1.1" args=["mpath@0.1.1",null]
+669 verbose parsed url { protocol: null,
+669 verbose parsed url   slashes: null,
+669 verbose parsed url   auth: null,
+669 verbose parsed url   host: null,
+669 verbose parsed url   port: null,
+669 verbose parsed url   hostname: null,
+669 verbose parsed url   hash: null,
+669 verbose parsed url   search: null,
+669 verbose parsed url   query: null,
+669 verbose parsed url   pathname: 'mpath@0.1.1',
+669 verbose parsed url   path: 'mpath@0.1.1',
+669 verbose parsed url   href: 'mpath@0.1.1' }
+670 verbose cache add name="mpath" spec="0.1.1" args=["mpath","0.1.1"]
+671 verbose parsed url { protocol: null,
+671 verbose parsed url   slashes: null,
+671 verbose parsed url   auth: null,
+671 verbose parsed url   host: null,
+671 verbose parsed url   port: null,
+671 verbose parsed url   hostname: null,
+671 verbose parsed url   hash: null,
+671 verbose parsed url   search: null,
+671 verbose parsed url   query: null,
+671 verbose parsed url   pathname: '0.1.1',
+671 verbose parsed url   path: '0.1.1',
+671 verbose parsed url   href: '0.1.1' }
+672 verbose addNamed [ 'mpath', '0.1.1' ]
+673 verbose addNamed [ '0.1.1', '0.1.1' ]
+674 silly lockFile 7ed304e1-mpath-0-1-1 mpath@0.1.1
+675 verbose lock mpath@0.1.1 C:\Users\jayantha\AppData\Roaming\npm-cache\7ed304e1-mpath-0-1-1.lock
+676 verbose cache add [ 'regexp-clone@0.0.1', null ]
+677 verbose cache add name=undefined spec="regexp-clone@0.0.1" args=["regexp-clone@0.0.1",null]
+678 verbose parsed url { protocol: null,
+678 verbose parsed url   slashes: null,
+678 verbose parsed url   auth: null,
+678 verbose parsed url   host: null,
+678 verbose parsed url   port: null,
+678 verbose parsed url   hostname: null,
+678 verbose parsed url   hash: null,
+678 verbose parsed url   search: null,
+678 verbose parsed url   query: null,
+678 verbose parsed url   pathname: 'regexp-clone@0.0.1',
+678 verbose parsed url   path: 'regexp-clone@0.0.1',
+678 verbose parsed url   href: 'regexp-clone@0.0.1' }
+679 verbose cache add name="regexp-clone" spec="0.0.1" args=["regexp-clone","0.0.1"]
+680 verbose parsed url { protocol: null,
+680 verbose parsed url   slashes: null,
+680 verbose parsed url   auth: null,
+680 verbose parsed url   host: null,
+680 verbose parsed url   port: null,
+680 verbose parsed url   hostname: null,
+680 verbose parsed url   hash: null,
+680 verbose parsed url   search: null,
+680 verbose parsed url   query: null,
+680 verbose parsed url   pathname: '0.0.1',
+680 verbose parsed url   path: '0.0.1',
+680 verbose parsed url   href: '0.0.1' }
+681 verbose addNamed [ 'regexp-clone', '0.0.1' ]
+682 verbose addNamed [ '0.0.1', '0.0.1' ]
+683 silly lockFile c8264751-regexp-clone-0-0-1 regexp-clone@0.0.1
+684 verbose lock regexp-clone@0.0.1 C:\Users\jayantha\AppData\Roaming\npm-cache\c8264751-regexp-clone-0-0-1.lock
+685 verbose cache add [ 'mquery@0.5.3', null ]
+686 verbose cache add name=undefined spec="mquery@0.5.3" args=["mquery@0.5.3",null]
+687 verbose parsed url { protocol: null,
+687 verbose parsed url   slashes: null,
+687 verbose parsed url   auth: null,
+687 verbose parsed url   host: null,
+687 verbose parsed url   port: null,
+687 verbose parsed url   hostname: null,
+687 verbose parsed url   hash: null,
+687 verbose parsed url   search: null,
+687 verbose parsed url   query: null,
+687 verbose parsed url   pathname: 'mquery@0.5.3',
+687 verbose parsed url   path: 'mquery@0.5.3',
+687 verbose parsed url   href: 'mquery@0.5.3' }
+688 verbose cache add name="mquery" spec="0.5.3" args=["mquery","0.5.3"]
+689 verbose parsed url { protocol: null,
+689 verbose parsed url   slashes: null,
+689 verbose parsed url   auth: null,
+689 verbose parsed url   host: null,
+689 verbose parsed url   port: null,
+689 verbose parsed url   hostname: null,
+689 verbose parsed url   hash: null,
+689 verbose parsed url   search: null,
+689 verbose parsed url   query: null,
+689 verbose parsed url   pathname: '0.5.3',
+689 verbose parsed url   path: '0.5.3',
+689 verbose parsed url   href: '0.5.3' }
+690 verbose addNamed [ 'mquery', '0.5.3' ]
+691 verbose addNamed [ '0.5.3', '0.5.3' ]
+692 silly lockFile ffcc360d-mquery-0-5-3 mquery@0.5.3
+693 verbose lock mquery@0.5.3 C:\Users\jayantha\AppData\Roaming\npm-cache\ffcc360d-mquery-0-5-3.lock
+694 verbose url raw mpath/0.1.1
+695 verbose url resolving [ 'https://registry.npmjs.org/', './mpath/0.1.1' ]
+696 verbose url resolved https://registry.npmjs.org/mpath/0.1.1
+697 info trying registry request attempt 1 at 20:53:13
+698 http GET https://registry.npmjs.org/mpath/0.1.1
+699 verbose url raw mpromise/0.4.3
+700 verbose url resolving [ 'https://registry.npmjs.org/', './mpromise/0.4.3' ]
+701 verbose url resolved https://registry.npmjs.org/mpromise/0.4.3
+702 info trying registry request attempt 1 at 20:53:13
+703 http GET https://registry.npmjs.org/mpromise/0.4.3
+704 verbose url raw regexp-clone/0.0.1
+705 verbose url resolving [ 'https://registry.npmjs.org/', './regexp-clone/0.0.1' ]
+706 verbose url resolved https://registry.npmjs.org/regexp-clone/0.0.1
+707 info trying registry request attempt 1 at 20:53:13
+708 http GET https://registry.npmjs.org/regexp-clone/0.0.1
+709 verbose url raw mquery/0.5.3
+710 verbose url resolving [ 'https://registry.npmjs.org/', './mquery/0.5.3' ]
+711 verbose url resolved https://registry.npmjs.org/mquery/0.5.3
+712 info trying registry request attempt 1 at 20:53:13
+713 http GET https://registry.npmjs.org/mquery/0.5.3
+714 verbose url raw mongodb/1.3.23
+715 verbose url resolving [ 'https://registry.npmjs.org/', './mongodb/1.3.23' ]
+716 verbose url resolved https://registry.npmjs.org/mongodb/1.3.23
+717 info trying registry request attempt 1 at 20:53:13
+718 http GET https://registry.npmjs.org/mongodb/1.3.23
+719 verbose url raw muri/0.3.1
+720 verbose url resolving [ 'https://registry.npmjs.org/', './muri/0.3.1' ]
+721 verbose url resolved https://registry.npmjs.org/muri/0.3.1
+722 info trying registry request attempt 1 at 20:53:13
+723 verbose etag "3MS3Q9403MWAFGUJ06USVDAQ0"
+724 http GET https://registry.npmjs.org/muri/0.3.1
+725 verbose url raw ms/0.1.0
+726 verbose url resolving [ 'https://registry.npmjs.org/', './ms/0.1.0' ]
+727 verbose url resolved https://registry.npmjs.org/ms/0.1.0
+728 info trying registry request attempt 1 at 20:53:13
+729 verbose etag "94E8GXUPQ4FNV7UL7FT8Y022L"
+730 http GET https://registry.npmjs.org/ms/0.1.0
+731 verbose url raw sliced/0.0.5
+732 verbose url resolving [ 'https://registry.npmjs.org/', './sliced/0.0.5' ]
+733 verbose url resolved https://registry.npmjs.org/sliced/0.0.5
+734 info trying registry request attempt 1 at 20:53:13
+735 verbose etag "AEXX92E88U1EQJ2YBI17HJQUD"
+736 http GET https://registry.npmjs.org/sliced/0.0.5
+737 verbose url raw hooks/0.2.1
+738 verbose url resolving [ 'https://registry.npmjs.org/', './hooks/0.2.1' ]
+739 verbose url resolved https://registry.npmjs.org/hooks/0.2.1
+740 info trying registry request attempt 1 at 20:53:13
+741 verbose etag "B992DU4H9NHO20KAFX26DC59Q"
+742 http GET https://registry.npmjs.org/hooks/0.2.1
+743 http 200 https://registry.npmjs.org/mpromise/0.4.3
+744 silly registry.get cb [ 200,
+744 silly registry.get   { date: 'Wed, 07 May 2014 15:23:14 GMT',
+744 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+744 silly registry.get     etag: '"A1BP57MZH3RM1LV2WFS1TX6MQ"',
+744 silly registry.get     'content-type': 'application/json',
+744 silly registry.get     via: '1.1 varnish',
+744 silly registry.get     'cache-control': 'max-age=1',
+744 silly registry.get     'content-length': '973',
+744 silly registry.get     'accept-ranges': 'bytes',
+744 silly registry.get     age: '283',
+744 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-sv61-SJC3',
+744 silly registry.get     'x-cache': 'HIT, MISS',
+744 silly registry.get     'x-cache-hits': '43, 0',
+744 silly registry.get     'x-timer': 'S1399475911.932832003,VS0,VS37,VE37,VE282814',
+744 silly registry.get     vary: 'Accept',
+744 silly registry.get     'keep-alive': 'timeout=10, max=50',
+744 silly registry.get     connection: 'Keep-Alive' } ]
+745 http 200 https://registry.npmjs.org/mpath/0.1.1
+746 silly registry.get cb [ 200,
+746 silly registry.get   { date: 'Wed, 07 May 2014 15:23:14 GMT',
+746 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+746 silly registry.get     etag: '"5G0TVEQH1V2NL2RX1E5S6EPO"',
+746 silly registry.get     'content-type': 'application/json',
+746 silly registry.get     via: '1.1 varnish',
+746 silly registry.get     'cache-control': 'max-age=1',
+746 silly registry.get     'content-length': '9064',
+746 silly registry.get     'accept-ranges': 'bytes',
+746 silly registry.get     age: '283',
+746 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-v36-ASH, cache-sv60-SJC3',
+746 silly registry.get     'x-cache': 'HIT, HIT, MISS',
+746 silly registry.get     'x-cache-hits': '1, 57, 0',
+746 silly registry.get     'x-timer': 'S1399475911.717236042,VS0,VS40,VE40,VE283039',
+746 silly registry.get     vary: 'Accept',
+746 silly registry.get     'keep-alive': 'timeout=10, max=50',
+746 silly registry.get     connection: 'Keep-Alive' } ]
+747 silly lockFile c1e88908--org-mpromise-mpromise-0-4-3-tgz https://registry.npmjs.org/mpromise/-/mpromise-0.4.3.tgz
+748 verbose lock https://registry.npmjs.org/mpromise/-/mpromise-0.4.3.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\c1e88908--org-mpromise-mpromise-0-4-3-tgz.lock
+749 verbose addRemoteTarball [ 'https://registry.npmjs.org/mpromise/-/mpromise-0.4.3.tgz',
+749 verbose addRemoteTarball   'edc47a75a2a177b0e9382735db52dbec3808cc33' ]
+750 info retry fetch attempt 1 at 20:53:14
+751 verbose fetch to= C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194970-0.9828398390673101\tmp.tgz
+752 http GET https://registry.npmjs.org/mpromise/-/mpromise-0.4.3.tgz
+753 http 200 https://registry.npmjs.org/regexp-clone/0.0.1
+754 silly registry.get cb [ 200,
+754 silly registry.get   { date: 'Wed, 07 May 2014 15:23:14 GMT',
+754 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+754 silly registry.get     etag: '"C8NQSMYL1B63ZTGKAOJSFPK85"',
+754 silly registry.get     'content-type': 'application/json',
+754 silly registry.get     via: '1.1 varnish',
+754 silly registry.get     'cache-control': 'max-age=1',
+754 silly registry.get     'content-length': '1177',
+754 silly registry.get     'accept-ranges': 'bytes',
+754 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-sv60-SJC3',
+754 silly registry.get     'x-cache': 'HIT, MISS',
+754 silly registry.get     'x-cache-hits': '4878, 0',
+754 silly registry.get     'x-timer': 'S1399476006.010467768,VS0,VS39,VE39,VE188751',
+754 silly registry.get     vary: 'Accept',
+754 silly registry.get     'keep-alive': 'timeout=10, max=50',
+754 silly registry.get     connection: 'Keep-Alive' } ]
+755 silly lockFile 88623af3--npmjs-org-mpath-mpath-0-1-1-tgz https://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz
+756 verbose lock https://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\88623af3--npmjs-org-mpath-mpath-0-1-1-tgz.lock
+757 verbose addRemoteTarball [ 'https://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz',
+757 verbose addRemoteTarball   '23da852b7c232ee097f4759d29c0ee9cd22d5e46' ]
+758 info retry fetch attempt 1 at 20:53:14
+759 verbose fetch to= C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\tmp.tgz
+760 http GET https://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz
+761 silly lockFile c14d1afe-exp-clone-regexp-clone-0-0-1-tgz https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz
+762 verbose lock https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\c14d1afe-exp-clone-regexp-clone-0-0-1-tgz.lock
+763 verbose addRemoteTarball [ 'https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz',
+763 verbose addRemoteTarball   'a7c2e09891fdbf38fbb10d376fb73003e68ac589' ]
+764 info retry fetch attempt 1 at 20:53:15
+765 verbose fetch to= C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195000-0.8253390397876501\tmp.tgz
+766 http GET https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz
+767 http 200 https://registry.npmjs.org/mongodb/1.3.23
+768 silly registry.get cb [ 200,
+768 silly registry.get   { date: 'Wed, 07 May 2014 15:23:14 GMT',
+768 silly registry.get     server: 'CouchDB/1.6.0+build.fauxton-91-g5a2864b (Erlang OTP/R14B04)',
+768 silly registry.get     etag: '"76BBJMC1F8RS2EMUPGVI44CS5"',
+768 silly registry.get     'content-type': 'application/json',
+768 silly registry.get     via: '1.1 varnish',
+768 silly registry.get     'cache-control': 'max-age=1',
+768 silly registry.get     'content-length': '2629',
+768 silly registry.get     'accept-ranges': 'bytes',
+768 silly registry.get     age: '3454',
+768 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-sv63-SJC3',
+768 silly registry.get     'x-cache': 'HIT, MISS',
+768 silly registry.get     'x-cache-hits': '1, 0',
+768 silly registry.get     'x-timer': 'S1399472740.610009432,VS0,VS36,VE124,VE3454200',
+768 silly registry.get     vary: 'Accept',
+768 silly registry.get     'keep-alive': 'timeout=10, max=50',
+768 silly registry.get     connection: 'Keep-Alive' } ]
+769 silly lockFile f15d8475-s-org-mongodb-mongodb-1-3-23-tgz https://registry.npmjs.org/mongodb/-/mongodb-1.3.23.tgz
+770 verbose lock https://registry.npmjs.org/mongodb/-/mongodb-1.3.23.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\f15d8475-s-org-mongodb-mongodb-1-3-23-tgz.lock
+771 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongodb/-/mongodb-1.3.23.tgz',
+771 verbose addRemoteTarball   '874a5212162b16188aeeaee5e06067766c8e9e86' ]
+772 info retry fetch attempt 1 at 20:53:15
+773 verbose fetch to= C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195041-0.39229256683029234\tmp.tgz
+774 http 200 https://registry.npmjs.org/mquery/0.5.3
+775 silly registry.get cb [ 200,
+775 silly registry.get   { date: 'Wed, 07 May 2014 15:23:14 GMT',
+775 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+775 silly registry.get     etag: '"828H6WD82KNVCWR3LSE2C5E7U"',
+775 silly registry.get     'content-type': 'application/json',
+775 silly registry.get     via: '1.1 varnish',
+775 silly registry.get     'cache-control': 'max-age=1',
+775 silly registry.get     'content-length': '974',
+775 silly registry.get     'accept-ranges': 'bytes',
+775 silly registry.get     age: '163',
+775 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-sv94-SJC3',
+775 silly registry.get     'x-cache': 'MISS, MISS',
+775 silly registry.get     'x-cache-hits': '0, 0',
+775 silly registry.get     'x-timer': 'S1399476031.857341290,VS0,VS37,VE119,VE162968',
+775 silly registry.get     vary: 'Accept',
+775 silly registry.get     'keep-alive': 'timeout=10, max=50',
+775 silly registry.get     connection: 'Keep-Alive' } ]
+776 http GET https://registry.npmjs.org/mongodb/-/mongodb-1.3.23.tgz
+777 silly lockFile f17f916f-pmjs-org-mquery-mquery-0-5-3-tgz https://registry.npmjs.org/mquery/-/mquery-0.5.3.tgz
+778 verbose lock https://registry.npmjs.org/mquery/-/mquery-0.5.3.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\f17f916f-pmjs-org-mquery-mquery-0-5-3-tgz.lock
+779 verbose addRemoteTarball [ 'https://registry.npmjs.org/mquery/-/mquery-0.5.3.tgz',
+779 verbose addRemoteTarball   'b8a04d096ecf90bf17a81cc39b80dd4e5abcecec' ]
+780 info retry fetch attempt 1 at 20:53:15
+781 verbose fetch to= C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195062-0.21696323063224554\tmp.tgz
+782 http GET https://registry.npmjs.org/mquery/-/mquery-0.5.3.tgz
+783 http 304 https://registry.npmjs.org/muri/0.3.1
+784 silly registry.get cb [ 304,
+784 silly registry.get   { date: 'Wed, 07 May 2014 15:23:15 GMT',
+784 silly registry.get     server: 'Apache',
+784 silly registry.get     via: '1.1 varnish',
+784 silly registry.get     'last-modified': 'Wed, 07 May 2014 15:23:15 GMT',
+784 silly registry.get     'cache-control': 'max-age=1',
+784 silly registry.get     etag: '"3MS3Q9403MWAFGUJ06USVDAQ0"',
+784 silly registry.get     'x-served-by': 'cache-sv61-SJC3',
+784 silly registry.get     'x-cache': 'MISS',
+784 silly registry.get     'x-cache-hits': '0',
+784 silly registry.get     'x-timer': 'S1399476195.041255474,VS0,VE75',
+784 silly registry.get     vary: 'Accept',
+784 silly registry.get     'content-length': '0',
+784 silly registry.get     'keep-alive': 'timeout=10, max=49',
+784 silly registry.get     connection: 'Keep-Alive' } ]
+785 verbose etag muri/0.3.1 from cache
+786 http 304 https://registry.npmjs.org/ms/0.1.0
+787 silly registry.get cb [ 304,
+787 silly registry.get   { date: 'Wed, 07 May 2014 15:23:15 GMT',
+787 silly registry.get     server: 'Apache',
+787 silly registry.get     via: '1.1 varnish',
+787 silly registry.get     'last-modified': 'Wed, 07 May 2014 15:23:15 GMT',
+787 silly registry.get     'cache-control': 'max-age=1',
+787 silly registry.get     etag: '"94E8GXUPQ4FNV7UL7FT8Y022L"',
+787 silly registry.get     'x-served-by': 'cache-sv60-SJC3',
+787 silly registry.get     'x-cache': 'MISS',
+787 silly registry.get     'x-cache-hits': '0',
+787 silly registry.get     'x-timer': 'S1399476195.054523706,VS0,VE76',
+787 silly registry.get     vary: 'Accept',
+787 silly registry.get     'content-length': '0',
+787 silly registry.get     'keep-alive': 'timeout=10, max=49',
+787 silly registry.get     connection: 'Keep-Alive' } ]
+788 verbose etag ms/0.1.0 from cache
+789 http 200 https://registry.npmjs.org/sliced/0.0.5
+790 silly registry.get cb [ 200,
+790 silly registry.get   { date: 'Wed, 07 May 2014 15:23:15 GMT',
+790 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+790 silly registry.get     etag: '"2VDNII5PTFYTRVCAMFQYZC7FF"',
+790 silly registry.get     'content-type': 'application/json',
+790 silly registry.get     via: '1.1 varnish',
+790 silly registry.get     'cache-control': 'max-age=1',
+790 silly registry.get     'content-length': '3624',
+790 silly registry.get     'accept-ranges': 'bytes',
+790 silly registry.get     age: '189',
+790 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-sv60-SJC3',
+790 silly registry.get     'x-cache': 'HIT, MISS',
+790 silly registry.get     'x-cache-hits': '1, 0',
+790 silly registry.get     'x-timer': 'S1399476006.194916248,VS0,VS36,VE128,VE188954',
+790 silly registry.get     vary: 'Accept',
+790 silly registry.get     'keep-alive': 'timeout=10, max=49',
+790 silly registry.get     connection: 'Keep-Alive' } ]
+791 silly lockFile de0d6290-pmjs-org-sliced-sliced-0-0-5-tgz https://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz
+792 verbose lock https://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\de0d6290-pmjs-org-sliced-sliced-0-0-5-tgz.lock
+793 verbose addRemoteTarball [ 'https://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz',
+793 verbose addRemoteTarball   '5edc044ca4eb6f7816d50ba2fc63e25d8fe4707f' ]
+794 info retry fetch attempt 1 at 20:53:15
+795 verbose fetch to= C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\tmp.tgz
+796 http GET https://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz
+797 http 304 https://registry.npmjs.org/hooks/0.2.1
+798 silly registry.get cb [ 304,
+798 silly registry.get   { date: 'Wed, 07 May 2014 15:23:15 GMT',
+798 silly registry.get     server: 'Apache',
+798 silly registry.get     via: '1.1 varnish',
+798 silly registry.get     'last-modified': 'Wed, 07 May 2014 15:23:15 GMT',
+798 silly registry.get     'cache-control': 'max-age=1',
+798 silly registry.get     etag: '"B992DU4H9NHO20KAFX26DC59Q"',
+798 silly registry.get     'x-served-by': 'cache-sv63-SJC3',
+798 silly registry.get     'x-cache': 'MISS',
+798 silly registry.get     'x-cache-hits': '0',
+798 silly registry.get     'x-timer': 'S1399476195.112259626,VS0,VE76',
+798 silly registry.get     vary: 'Accept',
+798 silly registry.get     'content-length': '0',
+798 silly registry.get     'keep-alive': 'timeout=10, max=49',
+798 silly registry.get     connection: 'Keep-Alive' } ]
+799 verbose etag hooks/0.2.1 from cache
+800 silly lockFile 9555626c-ms-0-1-0 ms@0.1.0
+801 silly lockFile 9555626c-ms-0-1-0 ms@0.1.0
+802 silly lockFile 01b66c9e-muri-0-3-1 muri@0.3.1
+803 silly lockFile 01b66c9e-muri-0-3-1 muri@0.3.1
+804 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+805 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+806 http 200 https://registry.npmjs.org/mongodb/-/mongodb-1.3.23.tgz
+807 http 200 https://registry.npmjs.org/mquery/-/mquery-0.5.3.tgz
+808 http 200 https://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz
+809 verbose tar unpack C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\tmp.tgz
+810 silly lockFile 239e2b04-4989-0-17216894659213722-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\package
+811 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\package C:\Users\jayantha\AppData\Roaming\npm-cache\239e2b04-4989-0-17216894659213722-package.lock
+812 silly lockFile 38273061-4989-0-17216894659213722-tmp-tgz tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\tmp.tgz
+813 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\tmp.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\38273061-4989-0-17216894659213722-tmp-tgz.lock
+814 silly gunzTarPerm modes [ '755', '644' ]
+815 silly gunzTarPerm extractEntry package.json
+816 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+817 silly gunzTarPerm extractEntry .npmignore
+818 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+819 silly gunzTarPerm extractEntry README.md
+820 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+821 silly gunzTarPerm extractEntry LICENSE
+822 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+823 silly gunzTarPerm extractEntry index.js
+824 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+825 silly gunzTarPerm extractEntry .travis.yml
+826 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+827 silly gunzTarPerm extractEntry History.md
+828 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+829 silly gunzTarPerm extractEntry lib/index.js
+830 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+831 silly gunzTarPerm extractEntry Makefile
+832 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+833 silly gunzTarPerm extractEntry test/index.js
+834 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+835 silly lockFile 239e2b04-4989-0-17216894659213722-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\package
+836 silly lockFile 239e2b04-4989-0-17216894659213722-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\package
+837 silly lockFile 38273061-4989-0-17216894659213722-tmp-tgz tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\tmp.tgz
+838 silly lockFile 38273061-4989-0-17216894659213722-tmp-tgz tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\tmp.tgz
+839 verbose tar pack [ 'C:\\Users\\jayantha\\AppData\\Roaming\\npm-cache\\mpath\\0.1.1\\package.tgz',
+839 verbose tar pack   'C:\\Users\\jayantha\\AppData\\Local\\Temp\\npm-8500-dudFx5sH\\1399476194989-0.17216894659213722\\package' ]
+840 verbose tarball C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz
+841 verbose folder C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\package
+842 silly lockFile 239e2b04-4989-0-17216894659213722-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\package
+843 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\package C:\Users\jayantha\AppData\Roaming\npm-cache\239e2b04-4989-0-17216894659213722-package.lock
+844 silly lockFile a563a15b-pm-cache-mpath-0-1-1-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz
+845 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\a563a15b-pm-cache-mpath-0-1-1-package-tgz.lock
+846 silly lockFile 239e2b04-4989-0-17216894659213722-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\package
+847 silly lockFile 239e2b04-4989-0-17216894659213722-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476194989-0.17216894659213722\package
+848 silly lockFile a563a15b-pm-cache-mpath-0-1-1-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz
+849 silly lockFile a563a15b-pm-cache-mpath-0-1-1-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz
+850 silly lockFile 7d7bf749-ng-npm-cache-mpath-0-1-1-package C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package
+851 verbose lock C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package C:\Users\jayantha\AppData\Roaming\npm-cache\7d7bf749-ng-npm-cache-mpath-0-1-1-package.lock
+852 silly lockFile 7d7bf749-ng-npm-cache-mpath-0-1-1-package C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package
+853 silly lockFile 7d7bf749-ng-npm-cache-mpath-0-1-1-package C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package
+854 verbose tar unpack C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz
+855 silly lockFile 943d7762-ng-npm-cache-mpath-0-1-1-package tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package
+856 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package C:\Users\jayantha\AppData\Roaming\npm-cache\943d7762-ng-npm-cache-mpath-0-1-1-package.lock
+857 silly lockFile a563a15b-pm-cache-mpath-0-1-1-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz
+858 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\a563a15b-pm-cache-mpath-0-1-1-package-tgz.lock
+859 silly gunzTarPerm modes [ '755', '644' ]
+860 silly gunzTarPerm extractEntry package.json
+861 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+862 silly gunzTarPerm extractEntry .npmignore
+863 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+864 silly gunzTarPerm extractEntry README.md
+865 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+866 silly gunzTarPerm extractEntry LICENSE
+867 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+868 silly gunzTarPerm extractEntry index.js
+869 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+870 silly gunzTarPerm extractEntry .travis.yml
+871 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+872 silly gunzTarPerm extractEntry History.md
+873 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+874 silly gunzTarPerm extractEntry lib/index.js
+875 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+876 silly gunzTarPerm extractEntry Makefile
+877 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+878 silly gunzTarPerm extractEntry test/index.js
+879 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+880 silly lockFile 943d7762-ng-npm-cache-mpath-0-1-1-package tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package
+881 silly lockFile 943d7762-ng-npm-cache-mpath-0-1-1-package tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package
+882 silly lockFile a563a15b-pm-cache-mpath-0-1-1-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz
+883 silly lockFile a563a15b-pm-cache-mpath-0-1-1-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz
+884 verbose chmod C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz 644
+885 silly chown skipping for windows C:\Users\jayantha\AppData\Roaming\npm-cache\mpath\0.1.1\package.tgz
+886 silly lockFile 88623af3--npmjs-org-mpath-mpath-0-1-1-tgz https://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz
+887 silly lockFile 88623af3--npmjs-org-mpath-mpath-0-1-1-tgz https://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz
+888 silly lockFile 7ed304e1-mpath-0-1-1 mpath@0.1.1
+889 silly lockFile 7ed304e1-mpath-0-1-1 mpath@0.1.1
+890 http 200 https://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz
+891 verbose tar unpack C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\tmp.tgz
+892 silly lockFile beac425b-95373-0-4269355898723006-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\package
+893 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\package C:\Users\jayantha\AppData\Roaming\npm-cache\beac425b-95373-0-4269355898723006-package.lock
+894 silly lockFile dadc07c5-95373-0-4269355898723006-tmp-tgz tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\tmp.tgz
+895 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\tmp.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\dadc07c5-95373-0-4269355898723006-tmp-tgz.lock
+896 silly gunzTarPerm modes [ '755', '644' ]
+897 silly gunzTarPerm extractEntry package.json
+898 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+899 silly gunzTarPerm extractEntry .npmignore
+900 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+901 silly gunzTarPerm extractEntry README.md
+902 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+903 silly gunzTarPerm extractEntry LICENSE
+904 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+905 silly gunzTarPerm extractEntry bench.js
+906 silly gunzTarPerm modified mode [ 'bench.js', 438, 420 ]
+907 silly gunzTarPerm extractEntry index.js
+908 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+909 silly gunzTarPerm extractEntry .travis.yml
+910 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+911 silly gunzTarPerm extractEntry component.json
+912 silly gunzTarPerm modified mode [ 'component.json', 438, 420 ]
+913 silly gunzTarPerm extractEntry Makefile
+914 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+915 silly gunzTarPerm extractEntry History.md
+916 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+917 silly gunzTarPerm extractEntry test/index.js
+918 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+919 silly gunzTarPerm extractEntry lib/sliced.js
+920 silly gunzTarPerm modified mode [ 'lib/sliced.js', 438, 420 ]
+921 silly lockFile beac425b-95373-0-4269355898723006-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\package
+922 silly lockFile beac425b-95373-0-4269355898723006-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\package
+923 silly lockFile dadc07c5-95373-0-4269355898723006-tmp-tgz tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\tmp.tgz
+924 silly lockFile dadc07c5-95373-0-4269355898723006-tmp-tgz tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\tmp.tgz
+925 verbose tar pack [ 'C:\\Users\\jayantha\\AppData\\Roaming\\npm-cache\\sliced\\0.0.5\\package.tgz',
+925 verbose tar pack   'C:\\Users\\jayantha\\AppData\\Local\\Temp\\npm-8500-dudFx5sH\\1399476195373-0.4269355898723006\\package' ]
+926 verbose tarball C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package.tgz
+927 verbose folder C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\package
+928 silly lockFile beac425b-95373-0-4269355898723006-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\package
+929 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\package C:\Users\jayantha\AppData\Roaming\npm-cache\beac425b-95373-0-4269355898723006-package.lock
+930 silly lockFile 95d32b3c-m-cache-sliced-0-0-5-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package.tgz
+931 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\95d32b3c-m-cache-sliced-0-0-5-package-tgz.lock
+932 silly lockFile beac425b-95373-0-4269355898723006-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\package
+933 silly lockFile beac425b-95373-0-4269355898723006-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195373-0.4269355898723006\package
+934 silly lockFile 95d32b3c-m-cache-sliced-0-0-5-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package.tgz
+935 silly lockFile 95d32b3c-m-cache-sliced-0-0-5-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package.tgz
+936 silly lockFile 72c6e941-g-npm-cache-sliced-0-0-5-package C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package
+937 verbose lock C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package C:\Users\jayantha\AppData\Roaming\npm-cache\72c6e941-g-npm-cache-sliced-0-0-5-package.lock
+938 silly lockFile 72c6e941-g-npm-cache-sliced-0-0-5-package C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package
+939 silly lockFile 72c6e941-g-npm-cache-sliced-0-0-5-package C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package
+940 verbose tar unpack C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package.tgz
+941 silly lockFile 79bf6f5c-g-npm-cache-sliced-0-0-5-package tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package
+942 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package C:\Users\jayantha\AppData\Roaming\npm-cache\79bf6f5c-g-npm-cache-sliced-0-0-5-package.lock
+943 silly lockFile 95d32b3c-m-cache-sliced-0-0-5-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package.tgz
+944 verbose lock tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\95d32b3c-m-cache-sliced-0-0-5-package-tgz.lock
+945 silly lockFile 79bf6f5c-g-npm-cache-sliced-0-0-5-package tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package
+946 silly lockFile 79bf6f5c-g-npm-cache-sliced-0-0-5-package tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package
+947 silly lockFile 95d32b3c-m-cache-sliced-0-0-5-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package.tgz
+948 silly lockFile 95d32b3c-m-cache-sliced-0-0-5-package-tgz tar://C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package.tgz
+949 error addPlacedTarball Could not unpack "C:\\Users\\jayantha\\AppData\\Roaming\\npm-cache\\sliced\\0.0.5\\package.tgz" to "C:\\Users\\jayantha\\AppData\\Roaming\\npm-cache\\sliced\\0.0.5"
+950 silly lockFile de0d6290-pmjs-org-sliced-sliced-0-0-5-tgz https://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz
+951 silly lockFile de0d6290-pmjs-org-sliced-sliced-0-0-5-tgz https://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz
+952 silly lockFile 146acdb0-sliced-0-0-5 sliced@0.0.5
+953 silly lockFile 146acdb0-sliced-0-0-5 sliced@0.0.5
+954 verbose about to build C:\Users\jayantha\AppData\Roaming\npm\node_modules\mongoose
+955 info C:\Users\jayantha\AppData\Roaming\npm\node_modules\mongoose unbuild
+956 info preuninstall mongoose@3.8.8
+957 info uninstall mongoose@3.8.8
+958 verbose tar unpack C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195062-0.21696323063224554\tmp.tgz
+959 silly lockFile 6c438952-5062-0-21696323063224554-package tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195062-0.21696323063224554\package
+960 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195062-0.21696323063224554\package C:\Users\jayantha\AppData\Roaming\npm-cache\6c438952-5062-0-21696323063224554-package.lock
+961 silly lockFile e1c286a7-5062-0-21696323063224554-tmp-tgz tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195062-0.21696323063224554\tmp.tgz
+962 verbose lock tar://C:\Users\jayantha\AppData\Local\Temp\npm-8500-dudFx5sH\1399476195062-0.21696323063224554\tmp.tgz C:\Users\jayantha\AppData\Roaming\npm-cache\e1c286a7-5062-0-21696323063224554-tmp-tgz.lock
+963 verbose true,C:\Users\jayantha\AppData\Roaming\npm\node_modules,C:\Users\jayantha\AppData\Roaming\npm\node_modules unbuild mongoose@3.8.8
+964 info postuninstall mongoose@3.8.8
+965 silly gunzTarPerm modes [ '755', '644' ]
+966 silly gunzTarPerm extractEntry package.json
+967 silly gunzTarPerm extractEntry .npmignore
+968 silly gunzTarPerm extractEntry README.md
+969 silly gunzTarPerm extractEntry LICENSE
+970 silly gunzTarPerm extractEntry index.js
+971 silly gunzTarPerm extractEntry .travis.yml
+972 error Error: EPERM, unlink 'C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package'
+972 error  { [Error: EPERM, unlink 'C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package']
+972 error   errno: 50,
+972 error   code: 'EPERM',
+972 error   path: 'C:\\Users\\jayantha\\AppData\\Roaming\\npm-cache\\sliced\\0.0.5\\package',
+972 error   parent: 'mongoose' }
+973 error Please try running this command again as root/Administrator.
+974 error System Windows_NT 6.1.7601
+975 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "mongoose"
+976 error cwd D:\Data\Code\JS\SkillsRepository
+977 error node -v v0.10.25
+978 error npm -v 1.3.24
+979 error path C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package
+980 error code EPERM
+981 error errno 50
+982 error stack Error: EPERM, unlink 'C:\Users\jayantha\AppData\Roaming\npm-cache\sliced\0.0.5\package'
+983 verbose exit [ 50, true ]
