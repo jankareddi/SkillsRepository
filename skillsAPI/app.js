@@ -7,12 +7,13 @@ var express = require('express')
   , mongoose = require('mongoose')
   , routes = require('./routes')
   , http = require('http')
+  , config = require('./config')
   , path = require('path');
 
 var app = express();
 
 app.configure(function(){
-  app.set('port', process.env.PORT || 3000);
+  app.set('port', process.env.PORT || config.port);
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
   app.use(express.favicon());
@@ -29,11 +30,17 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-mongoose.connect('mongodb://localhost/test');
+mongoose.connect(config.dbString);
 var models = require('./models')(mongoose);
 
 var user = require('./routes/user')(models.User);
 var skill = require('./routes/skill')(models.Skill);
+
+app.all('*', function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  next();
+ });
 
 app.get('/users', user.get);
 app.get('/users/:id', user.getById);

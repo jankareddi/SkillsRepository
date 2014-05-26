@@ -13,9 +13,17 @@ angular.module('skillsWebApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/user', {
+      .when('/users/:id', {
         templateUrl: 'views/user.html',
         controller: 'UserCtrl'
+      })
+      .when('/search', {
+        templateUrl: 'views/search.html',
+        controller: 'SearchCtrl'
+      })
+      .when('/skills', {
+        templateUrl: 'views/skills.html',
+        controller: 'SkillsCtrl'
       })
       .otherwise({
         redirectTo: '/'

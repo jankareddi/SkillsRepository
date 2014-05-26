@@ -11,14 +11,22 @@
 
 	<div id="skillsContainer" class="row top-space well col-md-offset-1 col-md-10">
 	<h3>Skills</h3>
-		<h4 ng-repeat="skill in userData.skills"><span class="label label-primary col-md-2 right-space bottom-space">{{skill.type}}<span class="badge pull-right">{{skill.level}}</span></span></h4>
-		<!-- <h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
-		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
-		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
-		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
-		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
-		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
-		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4>
-		<h4><span class="label label-primary col-md-2 right-space top-space">ASP.NET <span class="badge pull-right">4</span></span></h4> -->
+		<!-- <h4 ng-repeat="skill in userData.skills" ng-show="true"><span class="label label-primary col-md-2 right-space bottom-space">{{skill.type}}<span class="badge pull-right">{{skill.level}}</span></span></h4> -->
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Type</th>
+					<th>Skill</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="skill in userData.skills">
+					<td>{{$index + 1}}</td>
+					<td>{{skill.type}}</td>
+					<td>{{skill.level}}</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 </div>

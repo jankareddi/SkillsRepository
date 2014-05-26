@@ -1,0 +1,22 @@
+<p>This is the skills view.</p>
+
+<div id="skillsDetails">
+	<h3><span class="label label-default col-md-offset-1">Skills</span></h3>
+
+	<div id="skillsList" ng-show="skills.length > 0" class="col-md-offset-1 col-md-6">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="skill in skills">
+					<td>{{$index + 1}}</td>
+					<td>{{skill.name}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

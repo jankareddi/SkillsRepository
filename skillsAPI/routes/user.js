@@ -30,7 +30,7 @@ module.exports = function(userModel) {
 
         userProvider.findByFilter(filterData, function(err, users) {
             if (!err) {
-                res.send(users);
+                res.send(users[0]);
             }
             else {
                 res.writeHead(404, {'Content-Type': 'text/plain'});
