@@ -6,10 +6,10 @@ module.exports = function(config) {
     // base path, that will be used to resolve files and exclude
     basePath: '',
 
-    // plugins: [
-    // 'karma-chrome-launcher',
-    // 'karma-jasmine'
-    // ],
+    plugins: [
+    'karma-chrome-launcher',
+    'karma-jasmine'
+    ],
     
     // testing framework to use (jasmine/mocha/qunit/...)
     frameworks: ['jasmine'],
@@ -25,12 +25,12 @@ module.exports = function(config) {
       'app/bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
       'app/scripts/*.js',
       'app/scripts/**/*.js',
-      'test/mock/**/*.js',
+      //'test/mock/**/*.js',
       'test/spec/**/*.js'
     ],
 
     // list of files / patterns to exclude
-    exclude: [],
+    exclude: ['app/bower_components/angular-scenario/angular-scenario.js',],
 
     // web server port
     port: 8080,
@@ -41,7 +41,7 @@ module.exports = function(config) {
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: false,
+    autoWatch: true,
 
 
     // Start these browsers, currently available:

@@ -6,13 +6,30 @@ describe('Service: skillService', function () {
   beforeEach(module('skillsWebApp'));
 
   // instantiate service
-  var skillService;
-  beforeEach(inject(function (_skillService_) {
-    skillService = _skillService_;
+  var $skillService,
+    $httpBackend,
+    appSettings;
+
+  beforeEach(inject(function (_$skillService_, _$httpBackend_, _appSettings_) {
+    $skillService = _$skillService_;
+    $httpBackend = _$httpBackend_;
+    appSettings = _appSettings_;
   }));
 
-  it('should do something', function () {
-    expect(!!skillService).toBe(true);
+  it('should list all skills', function () {
+
+    $httpBackend.when('GET', appSettings.apiUrl + '/skills').respond([{name : 'JavaScript'}]);
+
+    var promiseResult;
+    $skillService.getSkills().then(function (result) {
+      promiseResult = result;
+    });
+    $httpBackend.flush();
+    
+    $httpBackend.expectGET(appSettings.apiUrl + '/skills');
+    expect(promiseResult.data.length).toBe(1);
+    expect(promiseResult.data[0].name).toBe('JavaScript');
+    
   });
 
 });

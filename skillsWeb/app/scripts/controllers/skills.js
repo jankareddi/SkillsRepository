@@ -5,10 +5,10 @@ angular.module('skillsWebApp')
     $scope.skills = [];
 
     $scope.getSkills = function() {
-    	$skillService.getSkills().then(function(promise) {
-    		$scope.skills = promise.data;
-    	})
-    }
+      $skillService.getSkills().then(function(promise) {
+        $scope.skills = promise.data;
+      });
+    };
 
     $scope.getSkills();
 
